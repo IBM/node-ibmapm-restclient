@@ -1,0 +1,19 @@
+{
+    "widgetid": "kdnNodeSvcInstRequestErrorRateChart",
+    "type": "chart",
+    "tags": [{ "entityType": "nodeServiceInstance" }],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "datadef": {
+        "query": "metric",
+        "uri": "/metric/0.9/values",
+        "parameters": {
+            "metrics": ["requestErrorRate"]
+        }
+    },
+    "expanded": true,
+    "labels": {
+        "yAxis": "label_error_rate",
+        "metricNames": ["label_error_rate"]
+    }
+}

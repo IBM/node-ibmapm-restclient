@@ -1,0 +1,21 @@
+{
+   "pageid": "nodefault_page",
+   "title": "nodefault_title",
+   "name": "nodefault_name",
+   "owner": "ibm.kdn",
+   "tags": [{"entityType":"nodefault"}],
+   "nlsBundleId": "ibm.kdn",
+   "description": "nodefault_desc",
+   "gridParams": {
+        "cols": 12,
+        "rowHeight": 30,
+        "margin": [6, 6],
+        "compactType": "vertical",
+        "isDraggable": true,
+        "isResizeable": true
+    },
+   "layout": [
+    {"w": 6, "h": 8, "x": 0, "y": 0, "i": "kdnNodeProperties", "minW": 3, "minH": 1 },
+    {"w": 6, "h": 8, "x": 6, "y": 0, "i": "kdnNodeRelationships", "minW": 3, "minH": 1 }
+  ]
+}

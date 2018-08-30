@@ -1,0 +1,30 @@
+{
+    "pageid": "nodeApplicationRuntime_page",
+    "tags": [{ "entityType": "nodeApplicationRuntime" }],
+    "nlsBundleId": "ibm.kdn",
+    "name": "nodeapplicationruntime_page_name",
+    "title": "nodeapplicationruntime_page_title",
+    "description": "nodeapplicationruntime_page_desc",
+    "owner": "ibm.kdn",
+    "gridParams": {
+        "cols": 24,
+        "rowHeight": 16,
+        "margin": [6, 6],
+        "compactType": "vertical",
+        "isDraggable": true,
+        "isResizeable": true
+    },
+    "layout": [
+
+        { "w": 24, "h": 24, "x": 0, "y": 0, "i": "kdnNodeAppRTGroup", "minW": 3, "minH": 1 },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTEventLoopTickChart", "member": "Y" },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTHeapSizeChart", "member": "Y" },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTAvgEventLoopLatencyChart", "member": "Y" },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTGCDurationChart", "member": "Y" },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTCPUChart", "member": "Y" },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTVirtualMemoryChart", "member": "Y" },
+
+        {"w": 12, "h": 8, "x": 0, "y": 24, "i": "kdnNodeProperties", "minW": 3, "minH": 1 },
+        {"w": 12, "h": 8, "x": 12, "y":24, "i": "kdnNodeRelationships", "minW": 3, "minH": 1 }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+
+    "widgetid": "kdnNodeSvcInstGroup",
+    "type": "group",
+    "tags": [{ "entityType": "nodeServiceInstance" }],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "expanded": true,
+    "gridParams": {
+        "cols": 18,
+        "rowHeight": 20,
+        "margin": [6, 0]
+    },
+    "title": "performance_overview_title",
+    "description": "performance_overview_desc",
+    "layout": [
+        { "w": 9, "h": 10, "x": 0, "y": 10, "i": "kdnNodeSvcInstSlowestResponseTimeChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 10, "x": 9, "y": 10, "i": "kdnNodeSvcInstAvgReqRespTimeChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 10, "x": 0, "y": 20, "i": "kdnNodeSvcInstRequestRateChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 10, "x": 9, "y": 20, "i": "kdnNodeSvcInstRequestErrorRateChart", "minW": 3, "minH": 2 }
+    ]
+}

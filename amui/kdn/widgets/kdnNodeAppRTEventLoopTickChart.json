@@ -1,0 +1,19 @@
+{
+    "widgetid": "kdnNodeAppRTEventLoopTickChart",
+    "type": "chart",
+    "tags": [{"entityType":"nodeApplicationRuntime"}],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "datadef": {
+      "query": "metric",
+      "uri": "/metric/0.9/values",
+       "parameters": {
+            "metrics": [ "eventLoopTickCount" ]
+        }
+    },
+    "expanded": true,
+    "labels": {
+        "yAxis": "label_event_loop_tick_count",
+        "metricNames": ["label_event_loop_tick_count" ]
+    }
+}

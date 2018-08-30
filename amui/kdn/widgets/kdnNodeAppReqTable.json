@@ -1,0 +1,26 @@
+{
+    "widgetid": "kdnNodeAppReqTable",
+    "type": "table",
+    "tags": [{ "entityType": "service" }],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "datadef": {
+        "query": "values",
+        "parameters": {
+            "metrics": ["averageServiceResponseTime", "throughput"],
+            "group_by_dimension": {
+                "averageServiceResponseTime": "requestName",
+                "throughput": "requestName"
+            },
+            "latest_value": true
+        }
+    },
+    "expanded": true,
+    "labels": {
+        "headers": ["label_request_name", "label_avg_resp_time", "label_hit_count_min"],
+        "headers_width": [40, 30, 30]
+    },
+    "navigation": [
+        { "pageid": "#", "context": "row" }
+    ]
+}

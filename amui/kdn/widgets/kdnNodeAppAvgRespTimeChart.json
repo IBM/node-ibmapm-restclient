@@ -1,0 +1,20 @@
+{
+    "widgetid": "kdnNodeAppAvgRespTimeChart",
+    "type": "chart",
+    "tags": [{ "entityType": "service" }],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "datadef": {
+        "query": "metric",
+        "uri": "/metric/0.9/values",
+        "parameters": {
+            "metrics": ["averageServiceResponseTime"],
+            "dimensions": [{ "averageServiceResponseTime": "requestName=<%DIM%>" }]
+        }
+    },
+    "expanded": true,
+    "labels": {
+        "yAxis": "label_avg_resp_time",
+        "metricNames": ["label_avg_resp_time"]
+    }
+}

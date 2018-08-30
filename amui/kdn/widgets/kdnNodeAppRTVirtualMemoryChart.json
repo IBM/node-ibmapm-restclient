@@ -1,0 +1,19 @@
+{
+    "widgetid": "kdnNodeAppRTVirtualMemoryChart",
+    "type": "chart",
+    "tags": [{ "entityType": "nodeApplicationRuntime" }],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "datadef": {
+        "query": "metric",
+        "uri": "/metric/0.9/values",
+        "parameters": {
+            "metrics": ["virtualMemory"]
+        }
+    },
+    "expanded": true,
+    "labels": {
+        "yAxis": "label_virtual_memory_mb",
+        "metricNames": ["label_virtual_memory_mb"]
+    }
+}

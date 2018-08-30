@@ -1,0 +1,19 @@
+{
+    "widgetid": "kdnNodeAppHitCountSumChart",
+    "type": "chart",
+    "tags": [{ "entityType": "service" }],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "datadef": {
+        "query": "metric",
+        "uri": "/metric/0.9/values",
+        "parameters": {
+            "metrics": ["throughput"]
+        }
+    },
+    "expanded": true,
+    "labels": {
+        "yAxis": "label_hit_count_min",
+        "metricNames": ["label_hit_count_min"]
+    }
+}

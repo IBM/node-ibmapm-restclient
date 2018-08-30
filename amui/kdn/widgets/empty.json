@@ -1,0 +1,10 @@
+{
+    "widgetid": "empty",
+    "type": "chart",
+    "tags": [{"entityType":"empty"}],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "title": "empty_title",
+    "description": "nodefault_desc",
+    "expanded": false
+}

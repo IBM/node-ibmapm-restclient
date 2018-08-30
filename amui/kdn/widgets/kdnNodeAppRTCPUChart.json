@@ -1,0 +1,19 @@
+{
+    "widgetid": "kdnNodeAppRTCPUChart",
+    "type": "chart",
+    "tags": [{"entityType":"nodeApplicationRuntime"}],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "datadef": {
+      "query": "metric",
+      "uri": "/metric/0.9/values",
+       "parameters": {
+            "metrics": [ "cpuPercentage" ]
+        }
+    },
+    "expanded": true,
+    "labels": {
+        "yAxis": "label_cpu_usage_percent",
+        "metricNames": ["label_cpu_usage_percent" ]
+    }
+}

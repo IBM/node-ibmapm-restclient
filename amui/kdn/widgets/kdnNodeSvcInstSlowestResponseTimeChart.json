@@ -1,0 +1,19 @@
+{
+    "widgetid": "kdnNodeSvcInstSlowestResponseTimeChart",
+    "type": "chart",
+    "tags": [{ "entityType": "nodeServiceInstance" }],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "datadef": {
+        "query": "metric",
+        "uri": "/metric/0.9/values",
+        "parameters": {
+            "metrics": ["slowestResponseTime"]
+        }
+    },
+    "expanded": true,
+    "labels": {
+        "yAxis": "label_slowest_resp_time",
+        "metricNames": ["label_slowest_resp_time"]
+    }
+}

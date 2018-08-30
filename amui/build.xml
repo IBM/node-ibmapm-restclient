@@ -1,0 +1,35 @@
+<project basedir="." default="main" name="Build AMUI zip (AMUI_kdn.zip)">
+    <property name="zip.name" value="AMUI_kdn.zip"/>
+    <property name="build.dir" value="./build"/>    
+    <property name="tran.dir" value="${build.dir}/translations"/>
+    <property name="target.dir" value="../etc/AMUI/${zip.name}"/> 
+    <target name="clean">
+        <delete file="./${zip.name}"/>
+        <delete dir="${build.dir}"/>
+    </target>
+
+    <target name="prepare">
+        <mkdir dir="${build.dir}"/>
+        <copy todir="${build.dir}">
+            <fileset dir="./kdn"/>
+        </copy>
+        <replace dir="${tran.dir}" value="">
+            <include name="*.json"/>
+            <replacefilter token="// START NON-TRANSLATABLE" value=""/>
+            <replacefilter token="// END NON-TRANSLATABLE" value=""/>
+        </replace> 
+    </target>
+
+    <target name="zip" depends="clean,prepare">
+        <zip destfile="./${zip.name}">
+            <fileset dir="${build.dir}"/>
+        </zip>
+    </target>
+
+    <target name="main" depends="zip">
+        <copy file="./${zip.name}" tofile="${target.dir}"/>
+        <delete dir="${build.dir}"/>
+        <delete file="./${zip.name}"/>
+    </target>
+    
+</project>

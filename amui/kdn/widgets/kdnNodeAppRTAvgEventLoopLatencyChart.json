@@ -1,0 +1,19 @@
+{
+    "widgetid": "kdnNodeAppRTAvgEventLoopLatencyChart",
+    "type": "chart",
+    "tags": [{"entityType":"nodeApplicationRuntime"}],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "datadef": {
+      "query": "metric",
+      "uri": "/metric/0.9/values",
+       "parameters": {
+            "metrics": [ "averageEventLoopLatency" ]
+        }
+    },
+    "expanded": true,
+    "labels": {
+        "yAxis": "label_avg_event_loop_latency",
+        "metricNames": ["label_avg_event_loop_latency" ]
+    }
+}

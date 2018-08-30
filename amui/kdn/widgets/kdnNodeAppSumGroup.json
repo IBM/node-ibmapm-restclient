@@ -1,0 +1,21 @@
+{
+
+    "widgetid": "kdnNodeAppSumGroup",
+    "type": "group",
+    "tags": [{ "entityType": "service" }],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "expanded": true,
+    "gridParams": {
+        "cols": 18,
+        "rowHeight": 20,
+        "margin": [6, 0]
+    },
+    "title": "performance_overview_title",
+    "description": "performance_overview_desc",
+    "layout": [
+
+        { "w": 9, "h": 10, "x": 0, "y": 10, "i": "kdnNodeAppHitCountSumChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 10, "x": 9, "y": 10, "i": "kdnNodeAppReqRespTimeSumChart", "minW": 3, "minH": 2 }
+    ]
+}

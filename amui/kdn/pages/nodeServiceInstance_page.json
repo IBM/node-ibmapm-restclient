@@ -1,0 +1,27 @@
+{
+    "pageid": "nodeServiceInstance_page",
+    "tags": [{ "entityType": "nodeServiceInstance" }],
+    "nlsBundleId": "ibm.kdn",
+    "name": "nodeServiceInstance_page_name",
+    "title": "nodeServiceInstance_page_title",
+    "description": "nodeServiceInstance_page_desc",
+    "owner": "ibm.kdn",
+    "gridParams": {
+        "cols": 24,
+        "rowHeight": 16,
+        "margin": [6, 6],
+        "compactType": "vertical",
+        "isDraggable": true,
+        "isResizeable": true
+    },
+    "layout": [
+        { "w": 24, "h": 20, "x": 0, "y": 0, "i": "kdnNodeSvcInstGroup", "minW": 3, "minH": 1 },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeSvcInstSlowestResponseTimeChart", "member": "Y" },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeSvcInstAvgReqRespTimeChart", "member": "Y" },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeSvcInstRequestRateChart", "member": "Y" },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeSvcInstRequestErrorRateChart", "member": "Y" },
+
+        {"w": 12, "h": 8, "x": 0, "y": 20, "i": "kdnNodeProperties", "minW": 3, "minH": 1 },
+        {"w": 12, "h": 8, "x": 12, "y":20, "i": "kdnNodeRelationships", "minW": 3, "minH": 1 }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "widgetid": "kdnNodeProperties",
+    "type": "propertylist",
+    "tags": [ {"entityType":"npm"}, {"entityType":"nodeServer"},
+        {"entityType":"service"}, {"entityType":"serviceEndpoint"},
+        {"entityType":"nodeServiceInstance"}, {"entityType":"nodeApplicationRuntime"} ],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "datadef": {
+       "query": "resource",
+       "uri": "/resource/uid",
+       "parameters": {
+        }
+    },
+    "expanded": true,
+    "title" :"properties_title" 
+}
