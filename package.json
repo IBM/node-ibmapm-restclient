@@ -1,0 +1,72 @@
+{
+    "name": "ibmapm-restclient",
+    "main": "./lib/restclient/httpsender.js",
+    "version": "1.0.0",
+    "readme": "Node.js Rest Client",
+    "description": "Node.js rest client for ICAM.",
+    "dependencies": {
+        "https-proxy-agent": "^2.2.1",
+        "kubernetes-client": "^3.16.0",
+        "log4js": "^0.6.38",
+        "properties": "^1.2.1",
+        "request": "^2.72.0",
+        "uuid": "^2.0.2"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "eslint": "^3.19.0",
+        "eslint-config-strongloop": "^2.1.0",
+        "should": "^9.0.0",
+        "should-http": "0.0.4",
+        "unexpected": "^10.13.3",
+        "mocha": "^3.2.0",
+        "mocha-junit-reporter": "^1.12.0",
+        "async": "^0.9.0",
+        "coveralls": "^2.11.2",
+        "intercept-stdout": "~0.1.2",
+        "nyc": "^11.0.2",
+        "tap": "12.x",
+        "tap-junit": "2.0.0"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/nyc --cache ./node_modules/.bin/tap --timeout=120 tests/*tests.js | tap-junit --output . --name jenkins-test-results",
+        "coverage": "./node_modules/.bin/nyc report --reporter=lcovonly"
+    },
+    "license": "Apache-2.0",
+    "bugs": {
+        "email": "yuecchen@cn.ibm.com",
+        "url": "https://github.com/IBM/node-ibmapm-restclient/issues"
+    },
+    "author": {
+        "name": "Yue Chen",
+        "email": "yuecchen@cn.ibm.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:IBM/node-ibmapm-restclient.git"
+    },
+    "contributors": [{
+            "name": "Hui Jun Song",
+            "email": "songhj@cn.ibm.com"
+        },
+        {
+            "name": "Yue Chen",
+            "email": "yuecchen@cn.ibm.com"
+        },
+        {
+            "name": "Ravi Gadekarla",
+            "email": "rgadekar@us.ibm.com"
+        },
+        {
+            "name": "Yanfeng Shi",
+            "email": "shiyanf@cn.ibm.com"
+        }
+    ],
+    "keywords": [
+        "restclient",
+        "apm",
+        "ibm",
+        "performance",
+        "monitoring"
+    ]
+}

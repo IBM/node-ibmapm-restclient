@@ -59,3 +59,5 @@ typings/
 
 # next.js build output
 .next
+
+/etc/AMUI/AMUI_kdn.zip

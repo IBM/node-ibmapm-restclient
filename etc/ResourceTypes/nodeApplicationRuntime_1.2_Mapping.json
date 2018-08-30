@@ -1,0 +1,431 @@
+{
+  "doctype": "mapping",
+  "productCode": "LWDC",
+  "extraData": {
+    "entity-properties": [{
+      "displaylabel": "loop",
+      "members": [{
+        "metricIntervals": "1",
+        "use": "loop",
+        "keys": "",
+        "when": "$odiObject *eq loop",
+        "propertyIntervals": "1",
+        "tableName": "loop"
+      }],
+      "description": "loop",
+      "overrides": [{
+        "set": ["$odiAttribute *eq resourceID",
+        "$odiLabel *eq Resource ID",
+        "$odiDescription *eq The resource ID.",
+        "$displayName *eq true",
+        "$fieldRequired *eq true",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string",
+        "$enumIVal *eq Available",
+        "$enumEVal *eq Not"],
+        "when": "$odiObject *eq loop *and $odiAttribute *eq resourceID"
+      },
+      {
+        "set": ["$odiAttribute *eq applicationResourceID",
+        "$odiLabel *eq Application Resource ID",
+        "$odiDescription *eq The Application resource ID.",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq loop *and $odiAttribute *eq applicationResourceID"
+      },
+      {
+        "set": ["$odiAttribute *eq npmResourceID",
+        "$odiLabel *eq NPM Resource ID",
+        "$odiDescription *eq The npm resource ID.",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq loop *and $odiAttribute *eq npmResourceID"
+      },
+      {
+        "set": ["$odiAttribute *eq applicationInstanceResourceID",
+        "$odiLabel *eq Application Instance Resource ID",
+        "$odiDescription *eq The a pplication instance resource ID.",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq loop *and $odiAttribute *eq applicationInstanceResourceID"
+      },
+      {
+        "set": ["$odiAttribute *eq _componentType",
+        "$odiLabel *eq Component Type",
+        "$odiDescription *eq The component type.",
+        "$fieldRequired *eq true",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq loop *and $odiAttribute *eq _componentType"
+      },
+      {
+        "set": ["$odiAttribute *eq averageEventLoopTickTime",
+        "$odiLabel *eq Average Event Loop Tick Time",
+        "$odiDescription *eq The average tick time of the event loop in milliseconds over the last one minute",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq double",
+        "$useUnits *eq milliseconds"],
+        "when": "$odiObject *eq loop *and $odiAttribute *eq Loop_Average"
+      },
+      {
+        "set": ["$odiAttribute *eq eventLoopTickCount",
+        "$odiLabel *eq Event Loop Tick Count",
+        "$odiDescription *eq The total number of event loop ticks in last minute",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq int",
+        "$useUnits *eq ticks"],
+        "when": "$odiObject *eq loop *and $odiAttribute *eq Loop_Count"
+      },
+      {
+        "set": ["$odiAttribute *eq maximumEventLoopTickTime",
+        "$odiLabel *eq Event Loop slowest Tick Time",
+        "$odiDescription *eq The longest or slowest tick time (milliseconds) of the event loop in last one minute",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq double",
+        "$useUnits *eq milliseconds"],
+        "when": "$odiObject *eq loop *and $odiAttribute *eq Loop_Maximum"
+      },
+      {
+        "set": ["$odiAttribute *eq minimumEventLoopTickTime",
+        "$odiLabel *eq Event Loop fastest Tick Time",
+        "$odiDescription *eq he shortest or fastest tick time of the event loop in milliseconds over the last interval",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq double",
+        "$useUnits *eq milliseconds",
+        "$odiEnums *eq true"],
+        "when": "$odiObject *eq loop *and $odiAttribute *eq minimumEventLoopTickTime"
+      },
+      {
+        "set": ["$odiAttribute *eq loopCpuUser",
+        "$odiLabel *eq Loop CPU User",
+        "$odiDescription *eq The percentage of 1 CPU used by the event loop thread in user code last interval",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq double",
+        "$useUnits *eq percent"],
+        "when": "$odiObject *eq loop *and $odiAttribute *eq loopCpuUser"
+      },
+      {
+        "set": ["$odiAttribute *eq loopCpuSystem",
+        "$odiLabel *eq Loop CPU System",
+        "$odiDescription *eq The percentage of 1 CPU used by the event loop thread in system code in the last interval",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq double",
+        "$useUnits *eq percent",
+        "$odiEnums *eq true"],
+        "when": "$odiObject *eq loop *and $odiAttribute *eq loopCpuSystem"
+      }],
+      "type": "loop",
+      "uniqueId": "metadata\/\/1.2\/resourcemaps\/resourcemap\/nodeApplicationRuntime\/loop",
+      "properties": [{
+        "datatype": "string",
+        "values": ["Resource"],
+        "displaylabel": "Class",
+        "name": "Class",
+        "description": ""
+      }]
+    },
+    {
+      "displaylabel": "eventLoop",
+      "members": [{
+        "metricIntervals": "1",
+        "use": "eventLoop",
+        "keys": "",
+        "when": "$odiObject *eq eventLoop",
+        "propertyIntervals": "1",
+        "tableName": "eventLoop"
+      }],
+      "description": "eventLoop",
+      "overrides": [{
+        "set": ["$odiAttribute *eq resourceID",
+        "$odiLabel *eq Resource ID",
+        "$odiDescription *eq The resource ID.",
+        "$displayName *eq true",
+        "$fieldRequired *eq true",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string",
+        "$enumIVal *eq Available",
+        "$enumEVal *eq Not"],
+        "when": "$odiObject *eq eventLoop *and $odiAttribute *eq resourceID"
+      },
+      {
+        "set": ["$odiAttribute *eq applicationResourceID",
+        "$odiLabel *eq Application Resource ID",
+        "$odiDescription *eq The Application resource ID.",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq eventLoop *and $odiAttribute *eq applicationResourceID"
+      },
+      {
+        "set": ["$odiAttribute *eq npmResourceID",
+        "$odiLabel *eq NPM Resource ID",
+        "$odiDescription *eq The npm resource ID.",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq eventLoop *and $odiAttribute *eq npmResourceID"
+      },
+      {
+        "set": ["$odiAttribute *eq applicationInstanceResourceID",
+        "$odiLabel *eq Application Instance Resource ID",
+        "$odiDescription *eq The a pplication instance resource ID.",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq eventLoop *and $odiAttribute *eq applicationInstanceResourceID"
+      },
+      {
+        "set": ["$odiAttribute *eq _componentType",
+        "$odiLabel *eq Component Type",
+        "$odiDescription *eq The component type.",
+        "$fieldRequired *eq true",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq eventLoop *and $odiAttribute *eq _componentType"
+      },
+      {
+        "set": ["$odiAttribute *eq averageEventLoopLatency",
+        "$odiLabel *eq Average Latency",
+        "$odiDescription *eq The average sampled latency, in milliseconds. The latency samples are taken in the last five seconds in one minute.",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq double",
+        "$useUnits *eq milliseconds",
+        "$odiEnums *eq true"],
+        "when": "$odiObject *eq eventLoop *and $odiAttribute *eq averageEventLoopLatency"
+      },
+      {
+        "set": ["$odiAttribute *eq maximumEventLoopLatency",
+        "$odiLabel *eq Longest Latency",
+        "$odiDescription *eq The longest sampled latency, in milliseconds. The latency samples are taken in the last five seconds in one minute",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq double",
+        "$useUnits *eq milliseconds"],
+        "when": "$odiObject *eq eventLoop *and $odiAttribute *eq Latency_Max"
+      },
+      {
+        "set": ["$odiAttribute *eq minimumEventLoopLatency",
+        "$odiLabel *eq Shortest Latency",
+        "$odiDescription *eq The shortest sampled latency, in milliseconds. The latency samples are taken in the last five seconds in one minute.",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq double",
+        "$useUnits *eq milliseconds",
+        "$odiEnums *eq true"],
+        "when": "$odiObject *eq eventLoop *and $odiAttribute *eq minimumEventLoopLatency"
+      }],
+      "type": "eventLoop",
+      "uniqueId": "metadata\/\/1.2\/resourcemaps\/resourcemap\/nodeApplicationRuntime\/eventLoop",
+      "properties": [{
+        "datatype": "string",
+        "values": ["Resource"],
+        "displaylabel": "Class",
+        "name": "Class",
+        "description": ""
+      }]
+    }],
+    "resource-properties": {
+      "relationships": [],
+      "members": [{
+        "metricIntervals": "1",
+        "use": "nodeApplicationRuntime",
+        "keys": "",
+        "when": "$odiObject *eq nodeApplicationRuntime",
+        "propertyIntervals": "1",
+        "tableName": "nodeApplicationRuntime"
+      }],
+      "overrides": [{
+        "set": ["$odiAttribute *eq resourceID",
+        "$odiLabel *eq Resource ID",
+        "$odiDescription *eq The resource ID.",
+        "$displayName *eq true",
+        "$fieldRequired *eq true",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string",
+        "$enumIVal *eq Available",
+        "$enumEVal *eq Not"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq resourceID"
+      },
+      {
+        "set": ["$odiAttribute *eq serviceResourceID",
+        "$odiLabel *eq Service Resource ID",
+        "$odiDescription *eq The service resource ID.",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq serviceResourceID"
+      },
+      {
+        "set": ["$odiAttribute *eq npmResourceID",
+        "$odiLabel *eq NPM Resource ID",
+        "$odiDescription *eq The npm resource ID.",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq npmResourceID"
+      },
+      {
+        "set": ["$odiAttribute *eq serviceInstanceResourceID",
+        "$odiLabel *eq Service Instance Resource ID",
+        "$odiDescription *eq The service instance resource ID.",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq serviceInstanceResourceID"
+      },
+      {
+        "set": ["$odiAttribute *eq _componentType",
+        "$odiLabel *eq Component Type",
+        "$odiDescription *eq The component type.",
+        "$fieldRequired *eq true",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq _componentType"
+      },
+      {
+        "set": ["$odiAttribute *eq gcDuration",
+        "$odiLabel *eq Garbage Collection Duration",
+        "$odiDescription *eq The duration of the GC cycle, in milliseconds.",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq double",
+        "$useUnits *eq milliseconds"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq gcDuration"
+      },
+      {
+        "set": ["$odiAttribute *eq markSweepGcCount",
+        "$odiLabel *eq Mark Sweep Count",
+        "$odiDescription *eq The count of Mark Sweep Compact GC, in one minute",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq int",
+        "$useUnits *eq count"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq markSweepGcCount"
+      },
+      {
+        "set": ["$odiAttribute *eq scavengeGcCount",
+        "$odiLabel *eq Scavenge GC Count",
+        "$odiDescription *eq The count of Scavenge GC in one minute",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq int",
+        "$useUnits *eq count"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq scavengeGcCount"
+      },
+      {
+        "set": ["$odiAttribute *eq processWeakCallbacksGcCount",
+        "$odiLabel *eq Process Weak Callbacks Count",
+        "$odiDescription *eq The count of process weak callbacks GC, in one minute",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq int",
+        "$useUnits *eq count"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq processWeakCallbacksGcCount"
+      },
+      {
+        "set": ["$odiAttribute *eq incrementalMarkingGcCount",
+        "$odiLabel *eq Incremental Marking Count",
+        "$odiDescription *eq The count of incremental marking GC, in one minute",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq int",
+        "$useUnits *eq count"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq incrementalMarkingGcCount"
+      },
+      {
+        "set": ["$odiAttribute *eq heapSize",
+        "$odiLabel *eq Heap Size",
+        "$odiDescription *eq The heap size of the Node application in the last interval, in megabytes",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq int",
+        "$useUnits *eq megabytes"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq heapSize"
+      },
+      {
+        "set": ["$odiAttribute *eq usedHeap",
+        "$odiLabel *eq usedHeap",
+        "$odiDescription *eq The amount of memory that is used in the Node application, in megabytes",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq int",
+        "$useUnits *eq megabytes"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq usedHeap"
+      },
+      {
+        "set": ["$odiAttribute *eq memoryRssSize",
+        "$odiLabel *eq Physical Memory of Application",
+        "$odiDescription *eq The physical memory that is used by the application, in megabytes.",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq int",
+        "$useUnits *eq megabytes"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq memoryRssSize"
+      },
+      {
+        "set": ["$odiAttribute *eq memoryTotalSize",
+        "$odiLabel *eq Total Memory of Application",
+        "$odiDescription *eq The total amount of memory used by the Node.js application that cannot be shared with other processes, in Megabytes.",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq int",
+        "$useUnits *eq megabytes"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq memoryTotalSize"
+      },
+      {
+        "set": ["$odiAttribute *eq virtualMemory",
+        "$odiLabel *eq Virtual Memory of Application",
+        "$odiDescription *eq The virtual memory that is used by the application, in megabytes.",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq int",
+        "$useUnits *eq megabytes"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq virtualMemory"
+      },
+      {
+        "set": ["$odiAttribute *eq upTime",
+        "$odiLabel *eq Elapsed Time since Restart",
+        "$odiDescription *eq The time since the last restart.",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq string",
+        "$useUnits *eq milliseconds"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq upTime"
+      },
+      {
+        "set": ["$odiAttribute *eq sysCpuPercentage",
+        "$odiLabel *eq Processor Percent of System",
+        "$odiDescription *eq The percentage of CPU used by the system as a whole. This is a value between 0.0 and 1.0.",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq double",
+        "$useUnits *eq percent"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq sysCpuPercentage"
+      },
+      {
+        "set": ["$odiAttribute *eq sysMemoryAll",
+        "$odiLabel *eq Total Memory of System",
+        "$odiDescription *eq The total amount of RAM available on the system in Megabytes.",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq int",
+        "$useUnits *eq megabytes"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq sysMemoryAll"
+      },
+      {
+        "set": ["$odiAttribute *eq sysMemoryUsed",
+        "$odiLabel *eq Used Memory of System",
+        "$odiDescription *eq The total amount of RAM in use on the system in Megabytes.",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq int",
+        "$useUnits *eq megabytes"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq sysMemoryUsed"
+      },
+      {
+        "set": ["$odiAttribute *eq sysMemoryFree",
+        "$odiLabel *eq Free Memory of System",
+        "$odiDescription *eq The total amount of free RAM available on the system in Megabytes.",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq int",
+        "$useUnits *eq megabytes"],
+        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq sysMemoryFree"
+      }],
+      "properties": [{
+        "datatype": "string",
+        "values": ["Resource"],
+        "displaylabel": "Class",
+        "name": "Class",
+        "description": ""
+      }]
+    }
+  },
+  "displaylabel": "Node Application Runtime",
+  "description": "Node Application Runtime",
+  "entityTypes": ["nodeApplicationRuntime"],
+  "source": "Collector",
+  "type": "nodeApplicationRuntime",
+  "version": "1.2",
+  "uniqueId": "metadata\/\/1.2\/resourcemaps\/resourcemap\/nodeApplicationRuntime",
+  "tags": ["mapping",
+  "topLevelResource"],
+  "timestamp": "2018-05-24T15:10:57.476+08:00"
+}
