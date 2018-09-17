@@ -1,0 +1,15 @@
+{
+    "extends": "strongloop",
+    "rules": {
+        "indent": ["error", 4],
+        "strict": "off",
+        "max-len": ["error", 120],
+        "comma-dangle": ["error", "never"],
+        "radix": ["error", "as-needed"],
+        "eqeqeq": ["error", "smart"]
+    },
+    "env": {
+        "mocha": true,
+        "es6": true
+    }
+}
