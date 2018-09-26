@@ -2,14 +2,14 @@
 
     "widgetid": "kdnNodeSvcInstGroup",
     "type": "group",
-    "tags": [{ "entityType": "nodeServiceInstance" }],
+    "tags": [{ "entityType": "nodeApplicationRuntime" }],
     "nlsBundleId": "ibm.kdn",
     "owner": "ibm.kdn",
     "expanded": true,
     "gridParams": {
         "cols": 18,
         "rowHeight": 20,
-        "margin": [6, 0]
+        "margin": [3, 0]
     },
     "title": "performance_overview_title",
     "description": "performance_overview_desc",

@@ -1,15 +1,15 @@
 {
-    "pageid": "application_page",
-    "tags": [{ "entityType": "service" }],
+    "pageid": "serviceInstance_page",
+    "tags": [{ "entityType": "serviceInstance" }],
     "nlsBundleId": "ibm.kdn",
-    "name": "application_page_name",
-    "title": "application_page_title",
-    "description": "application_page_desc",
+    "name": "serviceInstance_page_name",
+    "title": "serviceInstance_page_title",
+    "description": "serviceInstance_page_desc",
     "owner": "ibm.kdn",
     "gridParams": {
         "cols": 24,
         "rowHeight": 16,
-        "margin": [6, 6],
+        "margin": [3, 3],
         "compactType": "vertical",
         "isDraggable": true,
         "isResizeable": true
@@ -19,13 +19,14 @@
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppReqRespTimeSumChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppHitCountSumChart", "member": "Y" },
 
-        { "w": 24, "h": 20, "x": 0, "y": 40, "i": "kdnNodeAppGroup", "minW": 3, "minH": 1 },
+        { "w": 24, "h": 30, "x": 0, "y": 40, "i": "kdnNodeAppGroup", "minW": 3, "minH": 1 },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppReqTable", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppReqRespTimeChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppHitCountChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppAvgRespTimeChart", "member": "Y" },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppErrRateChart", "member": "Y" },
 
-        {"w": 12, "h": 8, "x": 0, "y": 60, "i": "kdnNodeProperties", "minW": 3, "minH": 1 },
-        {"w": 12, "h": 8, "x": 12, "y":60, "i": "kdnNodeRelationships", "minW": 3, "minH": 1 }
+        { "w": 12, "h": 8, "x": 0, "y": 70, "i": "kdnNodeProperties", "minW": 3, "minH": 1 },
+        { "w": 12, "h": 8, "x": 12, "y": 70, "i": "kdnNodeRelationships", "minW": 3, "minH": 1 }
     ]
 }

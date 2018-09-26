@@ -1,7 +1,7 @@
 {
     "defaultpage": {
         "nodeApplicationRuntime": "nodeApplicationRuntime_page",
-        "service": "application_page",
-        "nodeServiceInstance": "nodeServiceInstance_page"
-    }
+        "serviceInstance": "serviceInstance_page"
+    },
+    "defaultpage_version": 100
 }

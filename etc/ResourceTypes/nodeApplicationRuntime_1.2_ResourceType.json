@@ -181,22 +181,182 @@
             }
         },
         "metrics": {
-            "memoryRssSize": {
-                "displaylabel": "Physical Memory of Application",
+            "averageResponseTime": {
+                "displaylabel": "Average Response Time",
                 "dataType": "int",
-                "name": "Physical Memory of Application",
-                "description": "The physical memory that is used by the application, in megabytes.",
+                "name": "Average Response Time",
+                "description": "The average response time of the application at the latest sampling interval",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_mysqlRequestRate": {
+                "displaylabel": "Mysql Request Rate",
+                "dataType": "double",
+                "name": "Mysql Request Rate",
+                "description": "The application request rate at the latest sampling interval.",
+                "units": "requests/minute",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_redisMaxRespTime": {
+                "displaylabel": "Redis Slowest Response Time",
+                "dataType": "int",
+                "name": "Redis Slowest Response Time",
+                "description": "The slowest response time at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "slowestResponseTime": {
+                "displaylabel": "Slowest Response Time",
+                "dataType": "double",
+                "name": "Slowest Response Time",
+                "description": "The slowest response time at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "requestRate": {
+                "displaylabel": "Request Rate",
+                "dataType": "double",
+                "name": "Request Rate",
+                "description": "The application request rate at the latest sampling interval.",
+                "units": "requests/minute",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_mqlightRequestRate": {
+                "displaylabel": "Mqlight Request Rate",
+                "dataType": "double",
+                "name": "Mqlight Request Rate",
+                "description": "The application request rate at the latest sampling interval.",
+                "units": "requests/minute",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_socketioAverageResponseTime": {
+                "displaylabel": "Socketio Average Response Time",
+                "dataType": "int",
+                "name": "Socketio Average Response Time",
+                "description": "The average response time of the application at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_leveldbAverageResponseTime": {
+                "displaylabel": "Leveldb Average Response Time",
+                "dataType": "int",
+                "name": "Leveldb Average Response Time",
+                "description": "The average response time of the application at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_strongoracleMaxRespTime": {
+                "displaylabel": "Strongoracle Slowest Response Time",
+                "dataType": "int",
+                "name": "Strongoracle Slowest Response Time",
+                "description": "The slowest response time at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "scavengeGcCount": {
+                "displaylabel": "Scavenge GC Count",
+                "dataType": "int",
+                "name": "Scavenge GC Count",
+                "description": "The count of Scavenge GC in one minute",
+                "units": "count",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_mqlightMaxRespTime": {
+                "displaylabel": "Mqlight Slowest Response Time",
+                "dataType": "int",
+                "name": "Mqlight Slowest Response Time",
+                "description": "The slowest response time at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "sysMemoryFree": {
+                "displaylabel": "Free Memory of System",
+                "dataType": "int",
+                "name": "Free Memory of System",
+                "description": "The total amount of free RAM available on the system in Megabytes.",
                 "units": "megabytes",
                 "tags": {
                     "groupName": "nodeApplicationRuntime"
                 }
             },
-            "processWeakCallbacksGcCount": {
-                "displaylabel": "Process Weak Callbacks Count",
+            "usedHeap": {
+                "displaylabel": "usedHeap",
                 "dataType": "int",
-                "name": "Process Weak Callbacks Count",
-                "description": "The count of process weak callbacks GC, in one minute",
-                "units": "count",
+                "name": "usedHeap",
+                "description": "The amount of memory that is used in the Node application, in megabytes",
+                "units": "megabytes",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_mqlightAverageResponseTime": {
+                "displaylabel": "Mqlight Average Response Time",
+                "dataType": "int",
+                "name": "Mqlight Average Response Time",
+                "description": "The average response time of the application at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_leveldbRequestRate": {
+                "displaylabel": "Leveldb Request Rate",
+                "dataType": "double",
+                "name": "Leveldb Request Rate",
+                "description": "The application request rate at the latest sampling interval.",
+                "units": "requests/minute",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_socketioMaxRespTime": {
+                "displaylabel": "Socketio Slowest Response Time",
+                "dataType": "int",
+                "name": "Socketio Slowest Response Time",
+                "description": "The slowest response time at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_strongoracleRequestRate": {
+                "displaylabel": "Strongoracle Request Rate",
+                "dataType": "double",
+                "name": "Strongoracle Request Rate",
+                "description": "The application request rate at the latest sampling interval.",
+                "units": "requests/minute",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_postgresqlMaxRespTime": {
+                "displaylabel": "postgresql Slowest Response Time",
+                "dataType": "int",
+                "name": "postgresql Slowest Response Time",
+                "description": "The slowest response time at the latest sampling interval.",
+                "units": "milliseconds",
                 "tags": {
                     "groupName": "nodeApplicationRuntime"
                 }
@@ -207,6 +367,16 @@
                 "name": "Heap Size",
                 "description": "The heap size of the Node application in the last interval, in megabytes",
                 "units": "megabytes",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_socketioRequestRate": {
+                "displaylabel": "Socketio Request Rate",
+                "dataType": "double",
+                "name": "Socketio Request Rate",
+                "description": "The application request rate at the latest sampling interval.",
+                "units": "requests/minute",
                 "tags": {
                     "groupName": "nodeApplicationRuntime"
                 }
@@ -231,12 +401,42 @@
                     "groupName": "nodeApplicationRuntime"
                 }
             },
+            "reqSummary_leveldbMaxRespTime": {
+                "displaylabel": "Leveldb Slowest Response Time",
+                "dataType": "int",
+                "name": "Leveldb Slowest Response Time",
+                "description": "The slowest response time at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_riakRequestRate": {
+                "displaylabel": "Riak Request Rate",
+                "dataType": "double",
+                "name": "Riak Request Rate",
+                "description": "The application request rate at the latest sampling interval.",
+                "units": "requests/minute",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
             "virtualMemory": {
                 "displaylabel": "Virtual Memory of Application",
                 "dataType": "int",
                 "name": "Virtual Memory of Application",
                 "description": "The virtual memory that is used by the application, in megabytes.",
                 "units": "megabytes",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_oracleRequestRate": {
+                "displaylabel": "Oracle Request Rate",
+                "dataType": "double",
+                "name": "Oracle Request Rate",
+                "description": "The application request rate at the latest sampling interval.",
+                "units": "requests/minute",
                 "tags": {
                     "groupName": "nodeApplicationRuntime"
                 }
@@ -251,26 +451,6 @@
                     "groupName": "nodeApplicationRuntime"
                 }
             },
-            "incrementalMarkingGcCount": {
-                "displaylabel": "Incremental Marking Count",
-                "dataType": "int",
-                "name": "Incremental Marking Count",
-                "description": "The count of incremental marking GC, in one minute",
-                "units": "count",
-                "tags": {
-                    "groupName": "nodeApplicationRuntime"
-                }
-            },
-            "upTime": {
-                "displaylabel": "Elapsed Time since Restart",
-                "dataType": "string",
-                "name": "Elapsed Time since Restart",
-                "description": "The time since the last restart.",
-                "units": "milliseconds",
-                "tags": {
-                    "groupName": "nodeApplicationRuntime"
-                }
-            },
             "gcDuration": {
                 "displaylabel": "Garbage Collection Duration",
                 "dataType": "double",
@@ -281,32 +461,12 @@
                     "groupName": "nodeApplicationRuntime"
                 }
             },
-            "scavengeGcCount": {
-                "displaylabel": "Scavenge GC Count",
+            "reqSummary_riakMaxRespTime": {
+                "displaylabel": "Riak Slowest Response Time",
                 "dataType": "int",
-                "name": "Scavenge GC Count",
-                "description": "The count of Scavenge GC in one minute",
-                "units": "count",
-                "tags": {
-                    "groupName": "nodeApplicationRuntime"
-                }
-            },
-            "sysCpuPercentage": {
-                "displaylabel": "Processor Percent of System",
-                "dataType": "double",
-                "name": "Processor Percent of System",
-                "description": "The percentage of CPU used by the system as a whole. This is a value between 0.0 and 1.0.",
-                "units": "percent",
-                "tags": {
-                    "groupName": "nodeApplicationRuntime"
-                }
-            },
-            "sysMemoryFree": {
-                "displaylabel": "Free Memory of System",
-                "dataType": "int",
-                "name": "Free Memory of System",
-                "description": "The total amount of free RAM available on the system in Megabytes.",
-                "units": "megabytes",
+                "name": "Riak Slowest Response Time",
+                "description": "The slowest response time at the latest sampling interval.",
+                "units": "milliseconds",
                 "tags": {
                     "groupName": "nodeApplicationRuntime"
                 }
@@ -321,12 +481,282 @@
                     "groupName": "nodeApplicationRuntime"
                 }
             },
-            "usedHeap": {
-                "displaylabel": "usedHeap",
+            "reqSummary_oracleMaxRespTime": {
+                "displaylabel": "Oracle Slowest Response Time",
                 "dataType": "int",
-                "name": "usedHeap",
-                "description": "The amount of memory that is used in the Node application, in megabytes",
+                "name": "Oracle Slowest Response Time",
+                "description": "The slowest response time at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_strongoracleAverageResponseTime": {
+                "displaylabel": "Strongoracle Average Response Time",
+                "dataType": "int",
+                "name": "Strongoracle Average Response Time",
+                "description": "The average response time of the application at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_mysqlAverageResponseTime": {
+                "displaylabel": "Mysql Average Response Time",
+                "dataType": "int",
+                "name": "Mysql Average Response Time",
+                "description": "The average response time of the application at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "memoryRssSize": {
+                "displaylabel": "Physical Memory of Application",
+                "dataType": "int",
+                "name": "Physical Memory of Application",
+                "description": "The physical memory that is used by the application, in megabytes.",
                 "units": "megabytes",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_oracledbMaxRespTime": {
+                "displaylabel": "Oracledb Slowest Response Time",
+                "dataType": "int",
+                "name": "Oracledb Slowest Response Time",
+                "description": "The slowest response time at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "requestErrorRate": {
+                "displaylabel": "Error Rate",
+                "dataType": "double",
+                "name": "Error Rate",
+                "description": "The error rate of application requests at the latest sampling interval",
+                "units": "percent",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "processWeakCallbacksGcCount": {
+                "displaylabel": "Process Weak Callbacks Count",
+                "dataType": "int",
+                "name": "Process Weak Callbacks Count",
+                "description": "The count of process weak callbacks GC, in one minute",
+                "units": "count",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_mongoAverageResponseTime": {
+                "displaylabel": "Mongo Average Response Time",
+                "dataType": "int",
+                "name": "Mongo Average Response Time",
+                "description": "The average response time of the application at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "incrementalMarkingGcCount": {
+                "displaylabel": "Incremental Marking Count",
+                "dataType": "int",
+                "name": "Incremental Marking Count",
+                "description": "The count of incremental marking GC, in one minute",
+                "units": "count",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_memcachedAverageResponseTime": {
+                "displaylabel": "Memcached Average Response Time",
+                "dataType": "int",
+                "name": "Memcached Average Response Time",
+                "description": "The average response time of the application at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "sysCpuPercentage": {
+                "displaylabel": "Processor Percent of System",
+                "dataType": "double",
+                "name": "Processor Percent of System",
+                "description": "The percentage of CPU used by the system as a whole. This is a value between 0.0 and 1.0.",
+                "units": "percent",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_memcachedMaxRespTime": {
+                "displaylabel": "Memcached Slowest Response Time",
+                "dataType": "int",
+                "name": "Memcached Slowest Response Time",
+                "description": "The slowest response time at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_postgresqlRequestRate": {
+                "displaylabel": "postgresql Request Rate",
+                "dataType": "double",
+                "name": "postgresql Request Rate",
+                "description": "The application request rate at the latest sampling interval.",
+                "units": "requests/minute",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_mqttAverageResponseTime": {
+                "displaylabel": "Mqtt Average Response Time",
+                "dataType": "int",
+                "name": "Mqtt Average Response Time",
+                "description": "The average response time of the application at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_oracledbRequestRate": {
+                "displaylabel": "Oracledb Request Rate",
+                "dataType": "double",
+                "name": "Oracledb Request Rate",
+                "description": "The application request rate at the latest sampling interval.",
+                "units": "requests/minute",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_memcachedRequestRate": {
+                "displaylabel": "Memcached Request Rate",
+                "dataType": "double",
+                "name": "Memcached Request Rate",
+                "description": "The application request rate at the latest sampling interval.",
+                "units": "requests/minute",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_mqttRequestRate": {
+                "displaylabel": "Mqtt Request Rate",
+                "dataType": "double",
+                "name": "Mqtt Request Rate",
+                "description": "The application request rate at the latest sampling interval.",
+                "units": "requests/minute",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_oracledbAverageResponseTime": {
+                "displaylabel": "Oracledb Average Response Time",
+                "dataType": "int",
+                "name": "Oracledb Average Response Time",
+                "description": "The average response time of the application at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_mongoRequestRate": {
+                "displaylabel": "Mongo Request Rate",
+                "dataType": "double",
+                "name": "Mongo Request Rate",
+                "description": "The application request rate at the latest sampling interval.",
+                "units": "requests/minute",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_postgresqlAverageResponseTime": {
+                "displaylabel": "postgresql Average Response Time",
+                "dataType": "int",
+                "name": "postgresql Average Response Time",
+                "description": "The average response time of the application at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_mysqlMaxRespTime": {
+                "displaylabel": "Mysql Slowest Response Time",
+                "dataType": "int",
+                "name": "Mysql Slowest Response Time",
+                "description": "The slowest response time at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "upTime": {
+                "displaylabel": "Elapsed Time since Restart",
+                "dataType": "string",
+                "name": "Elapsed Time since Restart",
+                "description": "The time since the last restart.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_mongoMaxRespTime": {
+                "displaylabel": "Mongo Slowest Response Time",
+                "dataType": "int",
+                "name": "Mongo Slowest Response Time",
+                "description": "The slowest response time at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_redisRequestRate": {
+                "displaylabel": "Redis Request Rate",
+                "dataType": "double",
+                "name": "Redis Request Rate",
+                "description": "The application request rate at the latest sampling interval.",
+                "units": "requests/minute",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_riakAverageResponseTime": {
+                "displaylabel": "Riak Average Response Time",
+                "dataType": "int",
+                "name": "Riak Average Response Time",
+                "description": "The average response time of the application at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_redisAverageResponseTime": {
+                "displaylabel": "Redis Average Response Time",
+                "dataType": "int",
+                "name": "Redis Average Response Time",
+                "description": "The average response time of the application at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_mqttMaxRespTime": {
+                "displaylabel": "Mqtt Slowest Response Time",
+                "dataType": "int",
+                "name": "Mqtt Slowest Response Time",
+                "description": "The slowest response time at the latest sampling interval.",
+                "units": "milliseconds",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "reqSummary_oracleAverageResponseTime": {
+                "displaylabel": "Oracle Average Response Time",
+                "dataType": "int",
+                "name": "Oracle Average Response Time",
+                "description": "The average response time of the application at the latest sampling interval.",
+                "units": "milliseconds",
                 "tags": {
                     "groupName": "nodeApplicationRuntime"
                 }
@@ -381,5 +811,5 @@
     "tags": ["metadata",
         "topLevelResource"
     ],
-    "timestamp": "2018-05-24T15:10:57.473+08:00"
+    "timestamp": "2018-09-25T13:32:53.125+08:00"
 }

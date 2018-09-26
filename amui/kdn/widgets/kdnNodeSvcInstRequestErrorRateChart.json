@@ -1,7 +1,7 @@
 {
     "widgetid": "kdnNodeSvcInstRequestErrorRateChart",
     "type": "chart",
-    "tags": [{ "entityType": "nodeServiceInstance" }],
+    "tags": [{ "entityType": "nodeApplicationRuntime" }],
     "nlsBundleId": "ibm.kdn",
     "owner": "ibm.kdn",
     "datadef": {

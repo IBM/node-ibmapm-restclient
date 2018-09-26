@@ -2,21 +2,22 @@
 
     "widgetid": "kdnNodeAppGroup",
     "type": "group",
-    "tags": [{ "entityType": "service" }],
+    "tags": [{ "entityType": "serviceInstance" }],
     "nlsBundleId": "ibm.kdn",
     "owner": "ibm.kdn",
     "expanded": true,
     "gridParams": {
         "cols": 18,
-        "rowHeight": 20,
-        "margin": [6, 0]
+        "rowHeight": 30,
+        "margin": [3, 0]
     },
     "title": "request_analysis_per_request_title",
     "description": "request_analysis_per_request_desc",
     "layout": [
 
         { "w": 9, "h": 20, "x": 0, "y": 0, "i": "kdnNodeAppReqTable", "minW": 3, "minH": 2 },
-        { "w": 9, "h": 10, "x": 9, "y": 2, "i": "kdnNodeAppReqRespTimeChart", "minW": 3, "minH": 2 },
-        { "w": 9, "h": 10, "x": 9, "y": 10, "i": "kdnNodeAppHitCountChart", "minW": 3, "minH": 2 }
+        { "w": 9, "h": 7, "x": 9, "y": 0, "i": "kdnNodeAppReqRespTimeChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 7, "x": 9, "y": 10, "i": "kdnNodeAppHitCountChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 7, "x": 9, "y": 20, "i": "kdnNodeAppErrRateChart", "minW": 3, "minH": 2 }
     ]
 }

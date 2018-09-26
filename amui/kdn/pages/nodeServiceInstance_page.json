@@ -9,7 +9,7 @@
     "gridParams": {
         "cols": 24,
         "rowHeight": 16,
-        "margin": [6, 6],
+        "margin": [3, 3],
         "compactType": "vertical",
         "isDraggable": true,
         "isResizeable": true
@@ -21,7 +21,7 @@
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeSvcInstRequestRateChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeSvcInstRequestErrorRateChart", "member": "Y" },
 
-        {"w": 12, "h": 8, "x": 0, "y": 20, "i": "kdnNodeProperties", "minW": 3, "minH": 1 },
-        {"w": 12, "h": 8, "x": 12, "y":20, "i": "kdnNodeRelationships", "minW": 3, "minH": 1 }
+        { "w": 12, "h": 8, "x": 0, "y": 20, "i": "kdnNodeProperties", "minW": 3, "minH": 1 },
+        { "w": 12, "h": 8, "x": 12, "y": 20, "i": "kdnNodeRelationships", "minW": 3, "minH": 1 }
     ]
 }

@@ -1,7 +1,7 @@
 {
     "widgetid": "kdnNodeAppReqTable",
     "type": "table",
-    "tags": [{ "entityType": "service" }],
+    "tags": [{ "entityType": "serviceInstance" }],
     "nlsBundleId": "ibm.kdn",
     "owner": "ibm.kdn",
     "datadef": {

@@ -1,7 +1,7 @@
 {
     "widgetid": "kdnNodeAppHitCountChart",
     "type": "chart",
-    "tags": [{ "entityType": "service" }],
+    "tags": [{ "entityType": "serviceInstance" }],
     "nlsBundleId": "ibm.kdn",
     "owner": "ibm.kdn",
     "datadef": {
@@ -9,7 +9,7 @@
         "uri": "/metric/0.9/values",
         "parameters": {
             "metrics": ["throughput"],
-            "dimensions": [{ "averageServiceResponseTime": "requestName=<%DIM%>" }]
+            "dimensions": [{ "throughput": "requestName=<%DIM%>" }]
         }
     },
     "expanded": true,
