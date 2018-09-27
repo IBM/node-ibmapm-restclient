@@ -1,17 +1,16 @@
 {
     "widgetid": "kdnNodeRelationships",
     "type": "relationlist",
-    "tags": [ {"entityType":"npm"}, {"entityType":"nodeServer"},
-        {"entityType":"service"}, {"entityType":"serviceEndpoint"},
-        {"entityType":"nodeServiceInstance"}, {"entityType":"nodeApplicationRuntime"} ],
+    "tags": [{ "entityType": "serviceEndpoints" },
+        { "entityType": "serviceInstance" }, { "entityType": "nodeApplicationRuntime" }
+    ],
     "nlsBundleId": "ibm.kdn",
     "owner": "ibm.kdn",
     "datadef": {
-       "query": "resource",
-       "uri": "/resource/references",
-       "parameters": {
-        }
+        "query": "resource",
+        "uri": "/resource/references",
+        "parameters": {}
     },
     "expanded": true,
-    "title" :"relations_title" 
+    "title": "relations_title"
 }
