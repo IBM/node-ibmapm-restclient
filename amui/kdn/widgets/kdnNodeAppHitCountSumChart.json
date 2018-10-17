@@ -1,7 +1,7 @@
 {
     "widgetid": "kdnNodeAppHitCountSumChart",
     "type": "chart",
-    "tags": [{ "entityType": "serviceInstance" }],
+    "tags": [{ "entityType": "nodeApplicationRuntime" }],
     "nlsBundleId": "ibm.kdn",
     "owner": "ibm.kdn",
     "datadef": {

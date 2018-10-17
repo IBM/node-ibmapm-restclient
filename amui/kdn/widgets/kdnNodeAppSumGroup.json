@@ -2,7 +2,7 @@
 
     "widgetid": "kdnNodeAppSumGroup",
     "type": "group",
-    "tags": [{ "entityType": "serviceInstance" }],
+    "tags": [{ "entityType": "nodeApplicationRuntime" }],
     "nlsBundleId": "ibm.kdn",
     "owner": "ibm.kdn",
     "expanded": true,

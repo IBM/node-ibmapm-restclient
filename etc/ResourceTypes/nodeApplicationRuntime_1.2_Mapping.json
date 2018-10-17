@@ -26,30 +26,6 @@
         "when": "$odiObject *eq loop *and $odiAttribute *eq resourceID"
       },
       {
-        "set": ["$odiAttribute *eq applicationResourceID",
-        "$odiLabel *eq Application Resource ID",
-        "$odiDescription *eq The Application resource ID.",
-        "$fieldOutput *eq property",
-        "$odiDataType *eq string"],
-        "when": "$odiObject *eq loop *and $odiAttribute *eq applicationResourceID"
-      },
-      {
-        "set": ["$odiAttribute *eq npmResourceID",
-        "$odiLabel *eq NPM Resource ID",
-        "$odiDescription *eq The npm resource ID.",
-        "$fieldOutput *eq property",
-        "$odiDataType *eq string"],
-        "when": "$odiObject *eq loop *and $odiAttribute *eq npmResourceID"
-      },
-      {
-        "set": ["$odiAttribute *eq applicationInstanceResourceID",
-        "$odiLabel *eq Application Instance Resource ID",
-        "$odiDescription *eq The a pplication instance resource ID.",
-        "$fieldOutput *eq property",
-        "$odiDataType *eq string"],
-        "when": "$odiObject *eq loop *and $odiAttribute *eq applicationInstanceResourceID"
-      },
-      {
         "set": ["$odiAttribute *eq _componentType",
         "$odiLabel *eq Component Type",
         "$odiDescription *eq The component type.",
@@ -148,30 +124,6 @@
         "when": "$odiObject *eq eventLoop *and $odiAttribute *eq resourceID"
       },
       {
-        "set": ["$odiAttribute *eq applicationResourceID",
-        "$odiLabel *eq Application Resource ID",
-        "$odiDescription *eq The Application resource ID.",
-        "$fieldOutput *eq property",
-        "$odiDataType *eq string"],
-        "when": "$odiObject *eq eventLoop *and $odiAttribute *eq applicationResourceID"
-      },
-      {
-        "set": ["$odiAttribute *eq npmResourceID",
-        "$odiLabel *eq NPM Resource ID",
-        "$odiDescription *eq The npm resource ID.",
-        "$fieldOutput *eq property",
-        "$odiDataType *eq string"],
-        "when": "$odiObject *eq eventLoop *and $odiAttribute *eq npmResourceID"
-      },
-      {
-        "set": ["$odiAttribute *eq applicationInstanceResourceID",
-        "$odiLabel *eq Application Instance Resource ID",
-        "$odiDescription *eq The a pplication instance resource ID.",
-        "$fieldOutput *eq property",
-        "$odiDataType *eq string"],
-        "when": "$odiObject *eq eventLoop *and $odiAttribute *eq applicationInstanceResourceID"
-      },
-      {
         "set": ["$odiAttribute *eq _componentType",
         "$odiLabel *eq Component Type",
         "$odiDescription *eq The component type.",
@@ -218,6 +170,89 @@
         "name": "Class",
         "description": ""
       }]
+    },
+    {
+      "displaylabel": "requestsSummary",
+      "members": [{
+        "metricIntervals": "1",
+        "use": "requestsSummary",
+        "keys": "",
+        "when": "$odiObject *eq requestsSummary",
+        "propertyIntervals": "1",
+        "tableName": "requestsSummary"
+      }],
+      "description": "requests summary",
+      "overrides": [{
+        "set": ["$odiAttribute *eq averageServiceResponseTime",
+        "$odiLabel *eq Average Service Response Tim",
+        "$odiDescription *eq The average service response time of requests belonging to service in the last minute",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq float",
+        "$useUnits *eq milliseconds",
+        "$odiEnums *eq true"],
+        "when": "$odiObject *eq requestsSummary *and $odiAttribute *eq averageServiceResponseTime"
+      },
+      {
+        "set": ["$odiAttribute *eq throughput",
+        "$odiLabel *eq Throughput",
+        "$odiDescription *eq The request throughput in the last minute",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq int",
+        "$useUnits *eq requests",
+        "$odiEnums *eq true"],
+        "when": "$odiObject *eq requestsSummary *and $odiAttribute *eq throughput"
+      },
+      {
+        "set": ["$odiAttribute *eq errorRate",
+        "$odiLabel *eq Error Rate",
+        "$odiDescription *eq The error rate of requests during the interval.",
+        "$fieldOutput *eq metric",
+        "$odiDataType *eq float",
+        "$useUnits *eq percentage",
+        "$odiEnums *eq true"],
+        "when": "$odiObject *eq requestsSummary *and $odiAttribute *eq errorRate"
+      },
+      {
+        "set": ["$odiAttribute *eq applicationName",
+        "$odiLabel *eq Application Name",
+        "$odiDescription *eq The name of the application.",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq requestsSummary *and $odiAttribute *eq applicationName"
+      },
+      {
+        "set": ["$odiAttribute *eq requestName",
+        "$odiLabel *eq Request Name",
+        "$odiDescription *eq Request Name",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq requestsSummary *and $odiAttribute *eq requestName"
+      },
+      {
+        "set": ["$odiAttribute *eq _componentType",
+        "$odiLabel *eq Component Type",
+        "$odiDescription *eq Component Type",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq requestsSummary *and $odiAttribute *eq _componentType"
+      },
+      {
+        "set": ["$odiAttribute *eq nameSpace",
+        "$odiLabel *eq Name Space",
+        "$odiDescription *eq Name Space",
+        "$fieldOutput *eq property",
+        "$odiDataType *eq string"],
+        "when": "$odiObject *eq requestsSummary *and $odiAttribute *eq nameSpace"
+      }],
+      "type": "requestsSummary",
+      "uniqueId": "metadata\/\/1.2\/resourcemaps\/resourcemap\/nodeApplicationRuntime\/requestsSummary",
+      "properties": [{
+        "datatype": "string",
+        "values": ["Resource"],
+        "displaylabel": "Class",
+        "name": "Class",
+        "description": "Class"
+      }]
     }],
     "resource-properties": {
       "relationships": [],
@@ -248,22 +283,6 @@
         "$fieldOutput *eq property",
         "$odiDataType *eq string"],
         "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq serviceResourceID"
-      },
-      {
-        "set": ["$odiAttribute *eq npmResourceID",
-        "$odiLabel *eq NPM Resource ID",
-        "$odiDescription *eq The npm resource ID.",
-        "$fieldOutput *eq property",
-        "$odiDataType *eq string"],
-        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq npmResourceID"
-      },
-      {
-        "set": ["$odiAttribute *eq serviceInstanceResourceID",
-        "$odiLabel *eq Service Instance Resource ID",
-        "$odiDescription *eq The service instance resource ID.",
-        "$fieldOutput *eq property",
-        "$odiDataType *eq string"],
-        "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq serviceInstanceResourceID"
       },
       {
         "set": ["$odiAttribute *eq _componentType",
@@ -827,5 +846,5 @@
   "uniqueId": "metadata\/\/1.2\/resourcemaps\/resourcemap\/nodeApplicationRuntime",
   "tags": ["mapping",
   "topLevelResource"],
-  "timestamp": "2018-09-25T13:32:53.137+08:00"
+  "timestamp": "2018-10-10T15:01:26.412+08:00"
 }

@@ -48,30 +48,12 @@
                             "Available": "Not"
                         }
                     },
-                    "npmResourceID": {
-                        "dataType": "string",
-                        "displaylabel": "NPM Resource ID",
-                        "name": "NPM Resource ID",
-                        "description": "The npm resource ID."
-                    },
-                    "applicationInstanceResourceID": {
-                        "dataType": "string",
-                        "displaylabel": "Application Instance Resource ID",
-                        "name": "Application Instance Resource ID",
-                        "description": "The a pplication instance resource ID."
-                    },
                     "_componentType": {
                         "dataType": "string",
                         "displaylabel": "Component Type",
                         "name": "Component Type",
                         "description": "The component type.",
                         "required": "y"
-                    },
-                    "applicationResourceID": {
-                        "dataType": "string",
-                        "displaylabel": "Application Resource ID",
-                        "name": "Application Resource ID",
-                        "description": "The Application resource ID."
                     }
                 }
             },
@@ -152,30 +134,75 @@
                             "Available": "Not"
                         }
                     },
-                    "npmResourceID": {
-                        "dataType": "string",
-                        "displaylabel": "NPM Resource ID",
-                        "name": "NPM Resource ID",
-                        "description": "The npm resource ID."
-                    },
-                    "applicationInstanceResourceID": {
-                        "dataType": "string",
-                        "displaylabel": "Application Instance Resource ID",
-                        "name": "Application Instance Resource ID",
-                        "description": "The a pplication instance resource ID."
-                    },
                     "_componentType": {
                         "dataType": "string",
                         "displaylabel": "Component Type",
                         "name": "Component Type",
                         "description": "The component type.",
                         "required": "y"
+                    }
+                }
+            },
+            "requestsSummary": {
+                "displaylabel": "requestsSummary",
+                "name": "requestsSummary",
+                "description": "requests summary",
+                "metrics": {
+                    "averageServiceResponseTime": {
+                        "dataType": "float",
+                        "displaylabel": "Average Service Response Tim",
+                        "name": "Average Service Response Tim",
+                        "description": "The average service response time of requests belonging to service in the last minute",
+                        "units": "milliseconds",
+                        "tags": {
+                            "groupName": "requestsSummary"
+                        }
                     },
-                    "applicationResourceID": {
+                    "throughput": {
+                        "dataType": "int",
+                        "displaylabel": "Throughput",
+                        "name": "Throughput",
+                        "description": "The request throughput in the last minute",
+                        "units": "requests",
+                        "tags": {
+                            "groupName": "requestsSummary"
+                        }
+                    },
+                    "errorRate": {
+                        "dataType": "float",
+                        "displaylabel": "Error Rate",
+                        "name": "Error Rate",
+                        "description": "The error rate of requests during the interval.",
+                        "units": "percentage",
+                        "tags": {
+                            "groupName": "requestsSummary"
+                        }
+                    }
+                },
+                "dimensions": {
+                    "requestName": {
                         "dataType": "string",
-                        "displaylabel": "Application Resource ID",
-                        "name": "Application Resource ID",
-                        "description": "The Application resource ID."
+                        "displaylabel": "Request Name",
+                        "name": "Request Name",
+                        "description": "Request Name"
+                    },
+                    "nameSpace": {
+                        "dataType": "string",
+                        "displaylabel": "Name Space",
+                        "name": "Name Space",
+                        "description": "Name Space"
+                    },
+                    "_componentType": {
+                        "dataType": "string",
+                        "displaylabel": "Component Type",
+                        "name": "Component Type",
+                        "description": "Component Type"
+                    },
+                    "applicationName": {
+                        "dataType": "string",
+                        "displaylabel": "Application Name",
+                        "name": "Application Name",
+                        "description": "The name of the application."
                     }
                 }
             }
@@ -772,18 +799,6 @@
                 "enumValues": {
                     "Available": "Not"
                 }
-            },
-            "npmResourceID": {
-                "displaylabel": "NPM Resource ID",
-                "dataType": "string",
-                "name": "NPM Resource ID",
-                "description": "The npm resource ID."
-            },
-            "serviceInstanceResourceID": {
-                "displaylabel": "Service Instance Resource ID",
-                "dataType": "string",
-                "name": "Service Instance Resource ID",
-                "description": "The service instance resource ID."
             },
             "_componentType": {
                 "displaylabel": "Component Type",

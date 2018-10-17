@@ -1,9 +1,7 @@
 {
     "widgetid": "kdnNodeRelationships",
     "type": "relationlist",
-    "tags": [{ "entityType": "serviceEndpoints" },
-        { "entityType": "serviceInstance" }, { "entityType": "nodeApplicationRuntime" }
-    ],
+    "tags": [{ "entityType": "serviceEndpoint" }, { "entityType": "nodeApplicationRuntime" }],
     "nlsBundleId": "ibm.kdn",
     "owner": "ibm.kdn",
     "datadef": {
