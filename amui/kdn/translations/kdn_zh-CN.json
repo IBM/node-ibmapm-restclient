@@ -1,0 +1,38 @@
+{
+    // START NON-TRANSLATABLE
+    "nlsBundleId": "ibm.kdn",
+    "lang": "zh-CN",
+    "owner": "ibm.kdn",
+    "description": "Translation bundle for LightWeightDataCollector for Node.js",
+    // END NON-TRANSLATABLE
+    "translations": {
+        "empty_title": "[zh_CN'Ｎｏ Ｄefault Page Foundฏูİı｜]",
+        "nodefault_name": "[zh_CN'Ｎｏ ｄefault page foundฏูİı｜]",
+        "nodefault_title": "[zh_CN'Ｎｏ ｄｅｆａｕlt page found for this resource typeฏูİı｜]",
+        "nodefault_desc": "[zh_CN'Ｎｏ ｄｅｆａｕｌt metrics page found for this resource type.ฏูİı｜]",
+        "nodeapplicationruntime_page_name": "[zh_CN'Ｎｏｄｅ.ｊs Application Runtimeฏูİı｜]",
+        "nodeapplicationruntime_page_title": "[zh_CN'Ｎｏｄｅ.ｊｓ Application Runtime Metricsฏูİı｜]",
+        "nodeapplicationruntime_page_desc": "[zh_CN'Ｓａｍｐｌｅ Ｎode.js Application Runtime modeled on APMฏูİı｜]",
+        "performance_overview_title": "[zh_CN'Ｐｅｒformance Overviewฏูİı｜]",
+        "performance_overview_desc": "[zh_CN'Ｐｅｒｆｏrmance Overview Analysisฏูİı｜]",
+        "request_analysis_per_request_title": "[zh_CN'Ａｐｐｌｉcation Request Statisticsฏูİı｜]",
+        "request_analysis_per_request_desc": "[zh_CN'Ｓｔａｔｉｓｔics on a per Application Request Name Basisฏูİı｜]",
+        "label_cpu_usage_percent": "[zh_CN'Ｓｅｒvice CPU Usage (%)ฏูİı｜]",
+        "label_gc_duration": "[zh_CN'GC Durationฏูİı｜]",
+        "nodejs_analysis_title": "[zh_CN'Ｎode.js Analysisฏูİı｜]",
+        "nodejs_analysis_desc": "[zh_CN'Ｎode.js Analysisฏูİı｜]",
+        "label_heap_size_mbytes": "[zh_CN'Ｍｅｍory Usage (MBytes)ฏูİı｜]",
+        "label_event_loop_tick_count": "[zh_CN'Event Loop Tickฏูİı｜]",
+        "label_avg_event_loop_latency": "[zh_CN'Average Latencyฏูİı｜]",
+        "label_virtual_memory_mb": "[zh_CN'Ｖｉｒｔual Memory (MBytes)ฏูİı｜]",
+        "label_avg_resp_time": "[zh_CN'Ｒｅｑuest Response Timeฏูİı｜]",
+        "label_hit_count_min": "[zh_CN'Ｒｅｑｕest Count per minuteฏูİı｜]",
+        "label_request_name": "[zh_CN'Request Nameฏูİı｜]",
+        "label_error_rate": "[zh_CN'Error Rateฏูİı｜]",
+        "label_req_rate": "[zh_CN'Request Rateฏูİı｜]",
+        "label_slowest_resp_time": "[zh_CN'Ｓｌｏwest Response Timeฏูİı｜]",
+        "avg_resp_time_per_request_title": "[zh_CN'Request Name: <%requestName%>ฏูİı｜]",
+        "properties_title": "[zh_CN'Propertiesฏูİı｜]",
+        "relations_title": "[zh_CN'Ｒelated Resourcesฏูİı｜]"
+    }
+}
