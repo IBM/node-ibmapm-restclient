@@ -210,7 +210,7 @@
         "metrics": {
             "averageResponseTime": {
                 "displaylabel": "Average Response Time",
-                "dataType": "int",
+                "dataType": "float",
                 "name": "Average Response Time",
                 "description": "The average response time of the application at the latest sampling interval",
                 "units": "milliseconds",
@@ -834,7 +834,7 @@
     "metadataVersion": "1.2",
     "keyIndexName": "metadata//1.2/resourcetypes/resourcetype/nodeApplicationRuntime",
     "tags": ["metadata",
-        "topLevelResource"
+        "topLevelResource", "deployment:container"
     ],
     "timestamp": "2018-09-25T13:32:53.125+08:00"
 }

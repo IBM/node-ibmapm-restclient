@@ -495,7 +495,7 @@
                         "$odiLabel *eq Average Response Time",
                         "$odiDescription *eq The average response time of the application at the latest sampling interval",
                         "$fieldOutput *eq metric",
-                        "$odiDataType *eq int",
+                        "$odiDataType *eq float",
                         "$useUnits *eq milliseconds"
                     ],
                     "when": "$odiObject *eq nodeApplicationRuntime *and $odiAttribute *eq averageResponseTime"
@@ -941,7 +941,7 @@
     "version": "1.2",
     "uniqueId": "metadata\/\/1.2\/resourcemaps\/resourcemap\/nodeApplicationRuntime",
     "tags": ["mapping",
-        "topLevelResource"
+        "topLevelResource", "deployment:container"
     ],
     "timestamp": "2018-10-10T15:01:26.412+08:00"
 }
