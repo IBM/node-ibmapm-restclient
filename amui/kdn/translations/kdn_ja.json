@@ -1,0 +1,39 @@
+{
+    // START NON-TRANSLATABLE
+    "nlsBundleId": "ibm.kdn",
+    "lang": "ja",
+    "owner": "ibm.kdn",
+    "description": "Translation bundle for LightWeightDataCollector for Node.js",
+    // END NON-TRANSLATABLE
+    "translations": {
+        "empty_title": "デフォルト・ページが見つかりません",
+        "nodefault_name": "デフォルト・ページが見つかりません",
+        "nodefault_title": "このリソース・タイプのデフォルト・ページが見つかりません",
+        "nodefault_desc": "このリソース・タイプのデフォルトのメトリック・ページが見つかりません",
+        "nodeapplicationruntime_page_name": "Node.js アプリケーション・ランタイム",
+        "nodeapplicationruntime_page_title": "Node.js アプリケーション・ランタイム・メトリック",
+        "nodeapplicationruntime_page_desc": "APM 上にモデル化されたサンプル Node.js アプリケーション・ランタイム",
+        "performance_overview_title": "パフォーマンス概要",
+        "performance_overview_desc": "パフォーマンス概要の分析",
+        "request_analysis_per_request_title": "アプリケーション要求統計",
+        "request_analysis_per_request_desc": "アプリケーション要求名ごとの統計",
+        "label_cpu_usage_percent": "サービス CPU 使用率 (%)",
+        "label_gc_duration": "GC 所要時間",
+        "nodejs_analysis_title": "Node.js 分析",
+        "nodejs_analysis_desc": "Node.js 分析",
+        "label_heap_size_mbytes": "メモリー使用量 (MB)",
+        "label_event_loop_tick_count": "イベント・ループ・ティック",
+        "label_avg_event_loop_latency": "平均待ち時間",
+        "label_virtual_memory_mb": "仮想メモリー (MB)",
+        "label_avg_resp_time": "応答時間の要求",
+        "label_hit_count_min": "1 分あたりの要求数",
+        "label_request_name": "要求名",
+        "label_error_rate": "エラー率",
+        "label_req_rate": "要求率",
+        "label_slowest_resp_time": "最も遅い応答時間",
+        "avg_resp_time_per_request_title": "要求名: <%requestName%>",
+        "properties_title": "プロパティー",
+        "relations_title": "関連リソース"
+    }
+}
+

@@ -1,0 +1,39 @@
+{
+    // START NON-TRANSLATABLE
+    "nlsBundleId": "ibm.kdn",
+    "lang": "de",
+    "owner": "ibm.kdn",
+    "description": "Translation bundle for LightWeightDataCollector for Node.js",
+    // END NON-TRANSLATABLE
+    "translations": {
+        "empty_title": "Keine Standardseite gefunden",
+        "nodefault_name": "Keine Standardseite gefunden",
+        "nodefault_title": "Keine Standardseite für diesen Ressourcentyp gefunden",
+        "nodefault_desc": "Für diesen Ressourcentyp konnte keine Standardmetrikseite gefunden werden.",
+        "nodeapplicationruntime_page_name": "Node.js-Anwendungslaufzeit",
+        "nodeapplicationruntime_page_title": "Metriken für die Node.js-Anwendungslaufzeit",
+        "nodeapplicationruntime_page_desc": "Beispiel für die Node.js-Anwendungslaufzeit auf der Basis von APM",
+        "performance_overview_title": "Leistungsübersicht",
+        "performance_overview_desc": "Analyse der Leistungsübersicht",
+        "request_analysis_per_request_title": "Statistik der Anwendungsanforderung",
+        "request_analysis_per_request_desc": "Statistik auf der Basis von Daten pro Anwendungsanforderungsname",
+        "label_cpu_usage_percent": "CPU-Auslastung für Service (%)",
+        "label_gc_duration": "Dauer der GC",
+        "nodejs_analysis_title": "Node.js-Analyse",
+        "nodejs_analysis_desc": "Node.js-Analyse",
+        "label_heap_size_mbytes": "Hauptspeicherbelegung (MB)",
+        "label_event_loop_tick_count": "Ticks in der Ereignisschleife",
+        "label_avg_event_loop_latency": "Durchschnittliche Latenz",
+        "label_virtual_memory_mb": "Virtueller Speicher (MB)",
+        "label_avg_resp_time": "Anforderungsantwortzeit",
+        "label_hit_count_min": "Anzahl der Anforderungen pro Minute",
+        "label_request_name": "Anforderungsname",
+        "label_error_rate": "Fehlerrate",
+        "label_req_rate": "Anforderungsrate",
+        "label_slowest_resp_time": "Langsamste Antwortzeit",
+        "avg_resp_time_per_request_title": "Anforderungsname: <%requestName%>",
+        "properties_title": "Eigenschaften",
+        "relations_title": "Zugehörige Ressourcen"
+    }
+}
+

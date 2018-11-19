@@ -1,0 +1,39 @@
+{
+    // START NON-TRANSLATABLE
+    "nlsBundleId": "ibm.kdn",
+    "lang": "pt-BR",
+    "owner": "ibm.kdn",
+    "description": "Translation bundle for LightWeightDataCollector for Node.js",
+    // END NON-TRANSLATABLE
+    "translations": {
+        "empty_title": "Nenhuma Página Padrão Localizada",
+        "nodefault_name": "Nenhuma página padrão localizada",
+        "nodefault_title": "Nenhuma página padrão foi localizada para este tipo de recurso",
+        "nodefault_desc": "Nenhuma página de métricas padrão foi encontrada para este tipo de recurso.",
+        "nodeapplicationruntime_page_name": "Tempo de Execução do Aplicativo Node.js",
+        "nodeapplicationruntime_page_title": "Métricas do Tempo de Execução do Aplicativo Node.js",
+        "nodeapplicationruntime_page_desc": "Tempo de execução do aplicativo Node.js de amostra modelado no APM",
+        "performance_overview_title": "Visão Geral do Desempenho",
+        "performance_overview_desc": "Análise de Visão Geral de",
+        "request_analysis_per_request_title": "Estatísticas de solicitação de aplicativo",
+        "request_analysis_per_request_desc": "Estatísticas em uma base de nome de solicitação de aplicativo",
+        "label_cpu_usage_percent": "Uso de CPU de Serviço (%)",
+        "label_gc_duration": "Duração de GC",
+        "nodejs_analysis_title": "Análise do Node.js",
+        "nodejs_analysis_desc": "Análise do Node.js",
+        "label_heap_size_mbytes": "Uso de Memória (MBytes)",
+        "label_event_loop_tick_count": "Marcação de loop de eventos",
+        "label_avg_event_loop_latency": "Latência Média",
+        "label_virtual_memory_mb": "Memória Virtual (MBytes)",
+        "label_avg_resp_time": "Tempo de Resposta da Solicitação",
+        "label_hit_count_min": "Contagem de solicitações por minuto",
+        "label_request_name": "Nome do Pedido",
+        "label_error_rate": "Taxa de Erros",
+        "label_req_rate": "Taxa de Pedidos",
+        "label_slowest_resp_time": "Tempo de Resposta mais Lento",
+        "avg_resp_time_per_request_title": "Nome da solicitação: <%requestName%>",
+        "properties_title": "Propriedades",
+        "relations_title": "Recursos Relacionados"
+    }
+}
+

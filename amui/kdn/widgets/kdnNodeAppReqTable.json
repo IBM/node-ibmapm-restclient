@@ -16,6 +16,7 @@
         }
     },
     "expanded": true,
+    "title": "request_analysis_table_title",
     "labels": {
         "headers": ["label_request_name", "label_avg_resp_time", "label_hit_count_min"],
         "headers_width": [40, 30, 30]

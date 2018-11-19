@@ -1,0 +1,39 @@
+{
+    // START NON-TRANSLATABLE
+    "nlsBundleId": "ibm.kdn",
+    "lang": "zh-TW",
+    "owner": "ibm.kdn",
+    "description": "Translation bundle for LightWeightDataCollector for Node.js",
+    // END NON-TRANSLATABLE
+    "translations": {
+        "empty_title": "找不到預設頁面",
+        "nodefault_name": "找不到預設頁面",
+        "nodefault_title": "找不到此資源類型的預設頁面",
+        "nodefault_desc": "找不到此資源類型的預設度量頁面。",
+        "nodeapplicationruntime_page_name": "Node.js 應用程式執行時期",
+        "nodeapplicationruntime_page_title": "Node.js 應用程式執行時期度量值",
+        "nodeapplicationruntime_page_desc": "在 APM 上建模的範例 Node.js 應用程式執行時期",
+        "performance_overview_title": "效能概觀",
+        "performance_overview_desc": "效能概觀分析",
+        "request_analysis_per_request_title": "應用程式要求統計資料",
+        "request_analysis_per_request_desc": "根據每個應用程式要求名稱的統計資料",
+        "label_cpu_usage_percent": "服務 CPU 使用率 (%)",
+        "label_gc_duration": "GC 持續時間",
+        "nodejs_analysis_title": "Node.js 分析",
+        "nodejs_analysis_desc": "Node.js 分析",
+        "label_heap_size_mbytes": "記憶體用量 (MB)",
+        "label_event_loop_tick_count": "事件迴圈記號",
+        "label_avg_event_loop_latency": "平均延遲時間",
+        "label_virtual_memory_mb": "虛擬記憶體 (MB)",
+        "label_avg_resp_time": "要求回應時間",
+        "label_hit_count_min": "每分鐘要求計數",
+        "label_request_name": "要求名稱",
+        "label_error_rate": "錯誤率",
+        "label_req_rate": "要求率",
+        "label_slowest_resp_time": "最慢速的回應時間",
+        "avg_resp_time_per_request_title": "要求名稱：<%requestName%>",
+        "properties_title": "內容",
+        "relations_title": "相關資源"
+    }
+}
+

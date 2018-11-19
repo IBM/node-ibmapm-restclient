@@ -12,8 +12,9 @@
         }
     },
     "expanded": true,
+    "title": "label_cpu_usage",
     "labels": {
-        "yAxis": "label_cpu_usage_percent",
+        "yAxis": "label_percentage",
         "metricNames": ["label_cpu_usage_percent" ]
     }
 }

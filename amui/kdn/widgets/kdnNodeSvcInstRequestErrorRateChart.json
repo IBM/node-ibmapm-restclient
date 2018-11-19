@@ -12,8 +12,9 @@
         }
     },
     "expanded": true,
+    "title": "label_error_rate",
     "labels": {
-        "yAxis": "label_error_rate",
+        "yAxis": "label_perminute",
         "metricNames": ["label_error_rate"]
     }
 }

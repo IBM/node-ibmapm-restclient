@@ -13,7 +13,7 @@
     },
     "expanded": true,
     "labels": {
-        "yAxis": "label_avg_resp_time",
-        "metricNames": ["label_avg_resp_time"]
+        "yAxis": "label_req_resp_time",
+        "metricNames": ["label_req_resp_time"]
     }
 }

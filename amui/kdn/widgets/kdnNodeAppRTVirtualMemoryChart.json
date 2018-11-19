@@ -12,8 +12,9 @@
         }
     },
     "expanded": true,
+    "title": "label_virtual_memory",
     "labels": {
-        "yAxis": "label_virtual_memory_mb",
-        "metricNames": ["label_virtual_memory_mb"]
+        "yAxis": "label_mbytes",
+        "metricNames": ["label_virtual_memory"]
     }
 }

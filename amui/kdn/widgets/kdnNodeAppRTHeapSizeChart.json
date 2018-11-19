@@ -12,8 +12,9 @@
         }
     },
     "expanded": true,
+    "title": "label_heap_size",
     "labels": {
-        "yAxis": "label_heap_size_mbytes",
-        "metricNames": ["label_heap_size_mbytes" ]
+        "yAxis": "label_mbytes",
+        "metricNames": ["label_heap_size" ]
     }
 }

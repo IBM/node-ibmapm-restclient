@@ -12,8 +12,9 @@
         }
     },
     "expanded": true,
+    "title": "label_gc_duration",
     "labels": {
-        "yAxis": "label_gc_duration",
+        "yAxis": "label_ms",
         "metricNames": ["label_gc_duration" ]
     }
 }

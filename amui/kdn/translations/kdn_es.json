@@ -1,0 +1,39 @@
+{
+    // START NON-TRANSLATABLE
+    "nlsBundleId": "ibm.kdn",
+    "lang": "es",
+    "owner": "ibm.kdn",
+    "description": "Translation bundle for LightWeightDataCollector for Node.js",
+    // END NON-TRANSLATABLE
+    "translations": {
+        "empty_title": "No se ha encontrado ninguna página predeterminada",
+        "nodefault_name": "No se ha encontrado ninguna página predeterminada",
+        "nodefault_title": "No se ha encontrado ninguna página predeterminada para este tipo de recurso",
+        "nodefault_desc": "No se ha encontrado ninguna página de métricas predeterminada para este tipo de recurso.",
+        "nodeapplicationruntime_page_name": "Tiempo de ejecución de aplicación Node.js",
+        "nodeapplicationruntime_page_title": "Métricas de tiempo de ejecución de aplicación Node.js",
+        "nodeapplicationruntime_page_desc": "Tiempo de ejecución de aplicación Node.js de muestra modelada en APM",
+        "performance_overview_title": "Visión general de rendimiento",
+        "performance_overview_desc": "Análisis de visión general de rendimiento",
+        "request_analysis_per_request_title": "Estadísticas de solicitud de aplicación",
+        "request_analysis_per_request_desc": "Estadísticas por nombre de solicitud de aplicación",
+        "label_cpu_usage_percent": "Uso de CPU de servicio (%)",
+        "label_gc_duration": "Duración de RB",
+        "nodejs_analysis_title": "Análisis de Node.js",
+        "nodejs_analysis_desc": "Análisis de Node.js",
+        "label_heap_size_mbytes": "Uso de memoria (MBytes)",
+        "label_event_loop_tick_count": "Marca de bucle de sucesos",
+        "label_avg_event_loop_latency": "Latencia promedio",
+        "label_virtual_memory_mb": "Memoria virtual (MBytes)",
+        "label_avg_resp_time": "Tiempo de respuesta de solicitud",
+        "label_hit_count_min": "Recuento de solicitudes por minuto",
+        "label_request_name": "Nombre de solicitud",
+        "label_error_rate": "Frecuencia de errores",
+        "label_req_rate": "Frecuencia de solicitudes",
+        "label_slowest_resp_time": "Tiempo de respuesta más lento",
+        "avg_resp_time_per_request_title": "Nombre de solicitud: <%requestName%>",
+        "properties_title": "Propiedades",
+        "relations_title": "Recursos relacionados"
+    }
+}
+

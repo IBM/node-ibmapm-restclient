@@ -12,8 +12,9 @@
         }
     },
     "expanded": true,
+    "title": "label_event_loop_tick_count",
     "labels": {
-        "yAxis": "label_event_loop_tick_count",
+        "yAxis": "label_count",
         "metricNames": ["label_event_loop_tick_count" ]
     }
 }

@@ -12,8 +12,9 @@
         }
     },
     "expanded": true,
+    "title": "label_req_rate",
     "labels": {
-        "yAxis": "label_req_rate",
+        "yAxis": "label_perminute",
         "metricNames": ["label_req_rate"]
     }
 }

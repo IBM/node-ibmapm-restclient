@@ -12,8 +12,9 @@
         }
     },
     "expanded": true,
+    "title": "label_avg_event_loop_latency",
     "labels": {
-        "yAxis": "label_avg_event_loop_latency",
+        "yAxis": "label_ms",
         "metricNames": ["label_avg_event_loop_latency" ]
     }
 }

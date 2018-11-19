@@ -12,8 +12,9 @@
         }
     },
     "expanded": true,
+    "title": "label_slowest_resp_time",
     "labels": {
-        "yAxis": "label_slowest_resp_time",
+        "yAxis": "label_ms",
         "metricNames": ["label_slowest_resp_time"]
     }
 }

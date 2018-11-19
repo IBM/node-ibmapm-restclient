@@ -1,0 +1,39 @@
+{
+    // START NON-TRANSLATABLE
+    "nlsBundleId": "ibm.kdn",
+    "lang": "fr",
+    "owner": "ibm.kdn",
+    "description": "Translation bundle for LightWeightDataCollector for Node.js",
+    // END NON-TRANSLATABLE
+    "translations": {
+        "empty_title": "Aucune page par défaut trouvée",
+        "nodefault_name": "Aucune page par défaut trouvée",
+        "nodefault_title": "Aucune page par défaut trouvée pour ce type de ressource",
+        "nodefault_desc": "Aucune page de métriques par défaut trouvée pour ce type de ressource.",
+        "nodeapplicationruntime_page_name": "Contexte d'exécution de l'application Node.js",
+        "nodeapplicationruntime_page_title": "Métriques du contexte d'exécution de l'application Node.js",
+        "nodeapplicationruntime_page_desc": "Exemple de contexte d'exécution de l'application Node.js modélisé sur APM",
+        "performance_overview_title": "Considérations relatives aux performances",
+        "performance_overview_desc": "Analyse des considérations relatives aux performances",
+        "request_analysis_per_request_title": "Statistiques de requête d'application",
+        "request_analysis_per_request_desc": "Statistiques par nom de requête d'application",
+        "label_cpu_usage_percent": "Utilisation de l'UC du service (%)",
+        "label_gc_duration": "Durée de la récupération de place",
+        "nodejs_analysis_title": "Analyse Node.js",
+        "nodejs_analysis_desc": "Analyse Node.js",
+        "label_heap_size_mbytes": "Utilisation de la mémoire (Mo)",
+        "label_event_loop_tick_count": "Graduation de boucle d'événements",
+        "label_avg_event_loop_latency": "Temps d'attente moyen",
+        "label_virtual_memory_mb": "Mémoire virtuelle (Mo)",
+        "label_avg_resp_time": "Temps de réponse de la demande",
+        "label_hit_count_min": "Nombre de demandes par minute",
+        "label_request_name": "Nom de la demande",
+        "label_error_rate": "Taux d'erreur",
+        "label_req_rate": "Taux des demandes",
+        "label_slowest_resp_time": "Temps de réponse le plus lent",
+        "avg_resp_time_per_request_title": "Nom de la demande : <%requestName%>",
+        "properties_title": "Propriétés",
+        "relations_title": "Ressources associées"
+    }
+}
+
