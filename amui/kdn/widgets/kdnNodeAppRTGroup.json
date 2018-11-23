@@ -14,11 +14,11 @@
     "title": "nodejs_analysis_title",
     "description": "nodejs_analysis_desc",
     "layout": [
-        { "w": 9, "h": 10, "x": 0, "y": 10, "i": "kdnNodeAppRTEventLoopTickChart", "minW": 3, "minH": 2 },
-        { "w": 9, "h": 10, "x": 9, "y": 10, "i": "kdnNodeAppRTAvgEventLoopLatencyChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 10, "x": 0, "y": 10, "i": "kdnNodeAppRTCPUChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 10, "x": 9, "y": 10, "i": "kdnNodeAppRTVirtualMemoryChart", "minW": 3, "minH": 2 },
         { "w": 9, "h": 10, "x": 0, "y": 20, "i": "kdnNodeAppRTHeapSizeChart", "minW": 3, "minH": 2 },
         { "w": 9, "h": 10, "x": 9, "y": 20, "i": "kdnNodeAppRTGCDurationChart", "minW": 3, "minH": 2 },
-        { "w": 9, "h": 10, "x": 0, "y": 30, "i": "kdnNodeAppRTCPUChart", "minW": 3, "minH": 2 },
-        { "w": 9, "h": 10, "x": 9, "y": 30, "i": "kdnNodeAppRTVirtualMemoryChart", "minW": 3, "minH": 2 }
+        { "w": 9, "h": 10, "x": 0, "y": 30, "i": "kdnNodeAppRTAvgEventLoopLatencyChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 10, "x": 9, "y": 30, "i": "kdnNodeAppRTEventLoopTickChart", "minW": 3, "minH": 2 }
     ]
 }
