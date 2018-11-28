@@ -329,10 +329,10 @@
                 }
             },
             "usedHeap": {
-                "displaylabel": "usedHeap",
+                "displaylabel": "Used Heap",
                 "dataType": "int",
                 "name": "usedHeap",
-                "description": "The amount of memory that is used in the Node application, in megabytes",
+                "description": "The amount of memory used on the JavaScript heap in megabytes",
                 "units": "megabytes",
                 "tags": {
                     "groupName": "nodeApplicationRuntime"

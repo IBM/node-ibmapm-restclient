@@ -13,8 +13,9 @@
         }
     },
     "expanded": true,
+    "title": "label_req_rate",
     "labels": {
-        "yAxis": "label_hit_count_min",
+        "yAxis": "label_perminute",
         "metricNames": ["label_hit_count_min"]
     }
 }

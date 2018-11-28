@@ -1,20 +1,20 @@
 {
     "widgetid": "kdnNodeAppRTHeapSizeChart",
     "type": "chart",
-    "tags": [{"entityType":"nodeApplicationRuntime"}],
+    "tags": [{ "entityType": "nodeApplicationRuntime" }],
     "nlsBundleId": "ibm.kdn",
     "owner": "ibm.kdn",
     "datadef": {
-      "query": "metric",
-      "uri": "/metric/0.9/values",
-       "parameters": {
-            "metrics": [ "heapSize" ]
+        "query": "metric",
+        "uri": "/metric/0.9/values",
+        "parameters": {
+            "metrics": ["heapSize", "usedHeap"]
         }
     },
     "expanded": true,
-    "title": "label_heap_size",
+    "title": "label_heap_usage",
     "labels": {
         "yAxis": "label_mbytes",
-        "metricNames": ["label_heap_size" ]
+        "metricNames": ["label_heap_size", "label_heap_used"]
     }
 }

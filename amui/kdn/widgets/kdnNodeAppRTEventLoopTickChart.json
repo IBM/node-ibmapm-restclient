@@ -1,20 +1,24 @@
 {
     "widgetid": "kdnNodeAppRTEventLoopTickChart",
     "type": "chart",
-    "tags": [{"entityType":"nodeApplicationRuntime"}],
+    "tags": [{ "entityType": "nodeApplicationRuntime" }],
     "nlsBundleId": "ibm.kdn",
     "owner": "ibm.kdn",
     "datadef": {
-      "query": "metric",
-      "uri": "/metric/0.9/values",
-       "parameters": {
-            "metrics": [ "eventLoopTickCount" ]
+        "query": "metric",
+        "uri": "/metric/0.9/values",
+        "parameters": {
+            "metrics": ["eventLoopTickCount", "averageEventLoopTickTime", "maximumEventLoopTickTime", "minimumEventLoopTickTime"]
         }
     },
     "expanded": true,
-    "title": "label_event_loop_tick_count",
+    "title": "label_event_loop_tick",
     "labels": {
         "yAxis": "label_count",
-        "metricNames": ["label_event_loop_tick_count" ]
+        "metricNames": ["label_event_loop_tick_count",
+            "label_event_loop_tick_avg_time",
+            "label_event_loop_tick_max_time",
+            "label_event_loop_tick_min_time"
+        ]
     }
 }

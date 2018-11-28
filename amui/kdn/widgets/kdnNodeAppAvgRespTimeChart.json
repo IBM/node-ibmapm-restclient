@@ -13,8 +13,9 @@
         }
     },
     "expanded": true,
+    "title": "label_avg_resp_time",
     "labels": {
-        "yAxis": "label_req_resp_time",
+        "yAxis": "label_ms",
         "metricNames": ["label_req_resp_time"]
     }
 }

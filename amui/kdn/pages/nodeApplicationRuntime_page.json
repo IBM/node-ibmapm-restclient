@@ -25,7 +25,6 @@
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppReqTable", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppReqRespTimeChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppHitCountChart", "member": "Y" },
-        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppAvgRespTimeChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppErrRateChart", "member": "Y" },
 
         { "w": 24, "h": 24, "x": 0, "y": 50, "i": "kdnNodeAppRTGroup", "minW": 3, "minH": 1 },

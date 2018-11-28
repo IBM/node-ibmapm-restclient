@@ -1,20 +1,20 @@
 {
     "widgetid": "kdnNodeAppRTGCDurationChart",
     "type": "chart",
-    "tags": [{"entityType":"nodeApplicationRuntime"}],
+    "tags": [{ "entityType": "nodeApplicationRuntime" }],
     "nlsBundleId": "ibm.kdn",
     "owner": "ibm.kdn",
     "datadef": {
-      "query": "metric",
-      "uri": "/metric/0.9/values",
-       "parameters": {
-            "metrics": [ "gcDuration" ]
+        "query": "metric",
+        "uri": "/metric/0.9/values",
+        "parameters": {
+            "metrics": ["gcDuration", "scavengeGcCount", "markSweepGcCount"]
         }
     },
     "expanded": true,
-    "title": "label_gc_duration",
+    "title": "label_gc",
     "labels": {
         "yAxis": "label_ms",
-        "metricNames": ["label_gc_duration" ]
+        "metricNames": ["label_gc_duration", "label_gc_scavengeGcCount", "label_gc_markSweepGcCount"]
     }
 }
