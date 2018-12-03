@@ -12,7 +12,6 @@
         "margin": [3, 0]
     },
     "title": "performance_overview_title",
-    "description": "performance_overview_desc",
     "layout": [
 
         { "w": 9, "h": 10, "x": 0, "y": 10, "i": "kdnNodeAppHitCountSumChart", "minW": 3, "minH": 2 },

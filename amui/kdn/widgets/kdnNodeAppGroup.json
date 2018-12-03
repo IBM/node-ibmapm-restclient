@@ -12,7 +12,6 @@
         "margin": [3, 0]
     },
     "title": "request_analysis_per_request_title",
-    "description": "request_analysis_per_request_desc",
     "layout": [
 
         { "w": 9, "h": 21, "x": 0, "y": 0, "i": "kdnNodeAppReqTable", "minW": 3, "minH": 2 },
