@@ -47,7 +47,7 @@
         "label_private_memory": "専用メモリー",
         "label_physical_memory": "物理メモリー",
         "label_avg_resp_time": "平均応答時間",
-        "label_req_resp_time": "応答時間の要求",
+        "label_req_resp_time": "要求の応答時間",
         "label_hit_count_min": "1 分あたりの要求数",
         "label_request_name": "要求名",
         "label_error_rate": "エラー率",

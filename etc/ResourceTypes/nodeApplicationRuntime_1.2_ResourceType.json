@@ -612,7 +612,7 @@
                 "displaylabel": "Processor Percent of System",
                 "dataType": "double",
                 "name": "Processor Percent of System",
-                "description": "The percentage of CPU used by the system as a whole. This is a value between 0.0 and 1.0.",
+                "description": "The percentage of CPU used by the system as a whole, an average value by number of CPU cores. This is a value between 0.0 and 1.0.",
                 "units": "percent",
                 "tags": {
                     "groupName": "nodeApplicationRuntime"
@@ -622,7 +622,7 @@
                 "displaylabel": "Processor Percent of Application",
                 "dataType": "double",
                 "name": "Processor Percent of Application",
-                "description": "The percentage of CPU used by the Node.js application itself. This is a value between 0.0 and 1.0.",
+                "description": "The percentage of CPU used by the Node.js application itself, an average value by number of CPU cores. This is a value between 0.0 and 1.0.",
                 "units": "percent",
                 "tags": {
                     "groupName": "nodeApplicationRuntime"
