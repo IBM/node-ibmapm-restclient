@@ -96,7 +96,7 @@
                         "dataType": "double",
                         "displaylabel": "Event Loop fastest Tick Time",
                         "name": "Event Loop fastest Tick Time",
-                        "description": "he shortest or fastest tick time of the event loop in milliseconds over the last interval",
+                        "description": "The shortest or fastest tick time of the event loop in milliseconds over the last interval",
                         "units": "milliseconds",
                         "tags": {
                             "groupName": "loop"
