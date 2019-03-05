@@ -1,10 +1,8 @@
 {
-    
     "nlsBundleId": "ibm.kdn",
     "lang": "zh-TW",
     "owner": "ibm.kdn",
     "description": "Translation bundle for LightWeightDataCollector for Node.js",
-    
     "translations": {
         "empty_title": "找不到預設頁面",
         "nodefault_name": "找不到預設頁面",
@@ -57,7 +55,15 @@
         "label_perminute": "每分鐘",
         "label_count": "計數",
         "properties_title": "內容",
-        "relations_title": "相關資源"
+        "relations_title": "相關資源",
+        "think_demo_title": "信號",
+        "label_latency": "延遲",
+        "label_volume": "要求量",
+        "label_good_request_percentile": "延遲 - 良好交易",
+        "label_bad_request_percentile": "延遲 - 不良交易",
+        "label_request_response_percentile": "回應時間",
+        "test": "這是測試標籤"
+
     }
 }
 

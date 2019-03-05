@@ -1,10 +1,8 @@
 {
-    
     "nlsBundleId": "ibm.kdn",
     "lang": "zh-CN",
     "owner": "ibm.kdn",
     "description": "Translation bundle for LightWeightDataCollector for Node.js",
-    
     "translations": {
         "empty_title": "找不到任何缺省页面",
         "nodefault_name": "找不到任何缺省页面",
@@ -50,14 +48,22 @@
         "label_req_resp_time": "请求响应时间",
         "label_hit_count_min": "每分钟请求计数",
         "label_request_name": "请求名称",
-        "label_error_rate": "误差率",
+        "label_error_rate": "错误率",
         "label_req_rate": "请求速率",
         "label_slowest_resp_time": "最长响应时间",
         "label_ms": "毫秒",
         "label_perminute": "每分钟",
         "label_count": "计数",
         "properties_title": "属性",
-        "relations_title": "相关资源"
+        "relations_title": "相关资源",
+        "think_demo_title": "信号",
+        "label_latency": "等待时间",
+        "label_volume": "请求量",
+        "label_good_request_percentile": "等待时间 - 正常事务",
+        "label_bad_request_percentile": "等待时间 - 错误事务",
+        "label_request_response_percentile": "响应时间",
+        "test": "这是测试标签"
+
     }
 }
 

@@ -15,19 +15,27 @@
         "isResizeable": true
     },
     "layout": [
-        { "w": 24, "h": 20, "x": 0, "y": 0, "i": "kdnNodeSvcInstGroup", "minW": 3, "minH": 1 },
+        
+        { "w": 24, "h": 20, "x": 0, "y": 0, "i": "kdnNodeThinkDemoGroup", "minW": 3, "minH": 1 },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeThinkDemoLatencyChart", "member": "Y" },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeThinkDemoVolumeChart", "member": "Y" },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeThinkDemoErrorRateChart", "member": "Y" },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeThinkDemoGoodPercentileChart", "member": "Y" },
+        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeThinkDemoBadPercentileChart", "member": "Y" },
+
+        { "w": 24, "h": 20, "x": 0, "y": 20, "i": "kdnNodeSvcInstGroup", "minW": 3, "minH": 1 },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeSvcInstAvgReqRespTimeChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeSvcInstRequestRateChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeSvcInstRequestErrorRateChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeSvcInstSlowestResponseTimeChart", "member": "Y" },
 
-        { "w": 24, "h": 25, "x": 0, "y": 20, "i": "kdnNodeAppGroup", "minW": 3, "minH": 1 },
+        { "w": 24, "h": 25, "x": 0, "y": 40, "i": "kdnNodeAppGroup", "minW": 3, "minH": 1 },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppReqTable", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppReqRespTimeChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppHitCountChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppErrRateChart", "member": "Y" },
 
-        { "w": 24, "h": 24, "x": 0, "y": 50, "i": "kdnNodeAppRTGroup", "minW": 3, "minH": 1 },
+        { "w": 24, "h": 24, "x": 0, "y": 70, "i": "kdnNodeAppRTGroup", "minW": 3, "minH": 1 },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTCPUChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTVirtualMemoryChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTHeapSizeChart", "member": "Y" },
@@ -36,7 +44,7 @@
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTEventLoopTickChart", "member": "Y" },
 
 
-        { "w": 12, "h": 8, "x": 0, "y": 70, "i": "kdnNodeProperties", "minW": 3, "minH": 1 },
-        { "w": 12, "h": 8, "x": 12, "y": 70, "i": "kdnNodeRelationships", "minW": 3, "minH": 1 }
+        { "w": 12, "h": 8, "x": 0, "y": 90, "i": "kdnNodeProperties", "minW": 3, "minH": 1 },
+        { "w": 12, "h": 8, "x": 12, "y": 90, "i": "kdnNodeRelationships", "minW": 3, "minH": 1 }
     ]
 }

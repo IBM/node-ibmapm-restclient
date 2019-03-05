@@ -1,10 +1,8 @@
 {
-    
     "nlsBundleId": "ibm.kdn",
     "lang": "pt-BR",
     "owner": "ibm.kdn",
     "description": "Translation bundle for LightWeightDataCollector for Node.js",
-    
     "translations": {
         "empty_title": "Nenhuma Página Padrão Localizada",
         "nodefault_name": "Nenhuma página padrão localizada",
@@ -18,7 +16,7 @@
         "request_analysis_per_request_title": "Estatísticas de solicitação de aplicativo",
         "request_analysis_per_request_desc": "Estatísticas em uma base de nome de solicitação de aplicativo",
         "request_analysis_table_title": "Tabela de estatísticas de solicitação",
-        "label_cpu_usage": "Utilização da CPU",
+        "label_cpu_usage": "Uso de CPU",
         "label_percentage": "%",
         "label_system_cpu_usage_percent": "Uso de CPU do sistema (%)",
         "label_cpu_usage_percent": "Uso de CPU de Serviço (%)",
@@ -28,7 +26,7 @@
         "label_gc_markSweepGcCount": "Contagem de GC de MarkSweepCompact",
         "nodejs_analysis_title": "Análise do Node.js",
         "nodejs_analysis_desc": "Análise de métricas de aplicativo Node.js",
-        "label_memory_usage": "Utilização de Memória",
+        "label_memory_usage": "Uso de Memória",
         "label_heap_usage": "Uso de Heap",
         "label_heap_size": "Tamanho de Heap",
         "label_heap_used": "Heap usado",
@@ -39,7 +37,7 @@
         "label_event_loop_tick_min_time": "Tempo de marcação mínimo (ms)",
         "label_event_loop_tick": "Marcação de loop de eventos",
         "label_event_loop_latency": "Latência do loop de eventos",
-        "label_avg_event_loop_latency": "Latência Média",
+        "label_avg_event_loop_latency": "Latência média",
         "label_max_event_loop_latency": "Latência máxima",
         "label_min_event_loop_latency": "Latência mínima",
         "label_system_memory_all": "Memória total do sistema",
@@ -57,7 +55,15 @@
         "label_perminute": "Por minuto",
         "label_count": "Contagem",
         "properties_title": "Propriedades",
-        "relations_title": "Recursos Relacionados"
+        "relations_title": "Recursos relacionados",
+        "think_demo_title": "Sinais",
+        "label_latency": "Latência",
+        "label_volume": "Volume de solicitação",
+        "label_good_request_percentile": "Latência - transações válidas",
+        "label_bad_request_percentile": "Latência - transações inválidas",
+        "label_request_response_percentile": "Tempo de Resposta",
+        "test": "Este é um rótulo de teste"
+
     }
 }
 

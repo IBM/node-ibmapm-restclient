@@ -1,10 +1,8 @@
 {
-    
     "nlsBundleId": "ibm.kdn",
     "lang": "it",
     "owner": "ibm.kdn",
     "description": "Translation bundle for LightWeightDataCollector for Node.js",
-    
     "translations": {
         "empty_title": "Nessuna pagina predefinita trovata",
         "nodefault_name": "Nessuna pagina predefinita trovata",
@@ -20,11 +18,11 @@
         "request_analysis_table_title": "Tabella statistiche richiesta",
         "label_cpu_usage": "Utilizzo CPU",
         "label_percentage": "%",
-        "label_system_cpu_usage_percent": "Utilizzo CPU di sistema (%)",
+        "label_system_cpu_usage_percent": "Utilizzo CPU sistema (%)",
         "label_cpu_usage_percent": "Utilizzo CPU servizio (%)",
         "label_gc": "Raccolta dati inutilizzati",
         "label_gc_duration": "Durata raccolta dati inutilizzati",
-        "label_gc_scavengeGcCount": "Conteggio raccolta dati inutilizzati Scavenge",
+        "label_gc_scavengeGcCount": "Cerca conteggio raccolta dati inutilizzati",
         "label_gc_markSweepGcCount": "Conteggio raccolta dati inutilizzati MarkSweepCompact",
         "nodejs_analysis_title": "Analisi Node.js",
         "nodejs_analysis_desc": "Analisi delle metriche dell'applicazione Node.js",
@@ -42,7 +40,7 @@
         "label_avg_event_loop_latency": "Latenza media",
         "label_max_event_loop_latency": "Latenza massima",
         "label_min_event_loop_latency": "Latenza minima",
-        "label_system_memory_all": "Memoria totale sistema",
+        "label_system_memory_all": "Memoria sistema totale",
         "label_virtual_memory": "Memoria virtuale",
         "label_private_memory": "Memoria privata",
         "label_physical_memory": "Memoria fisica",
@@ -51,13 +49,21 @@
         "label_hit_count_min": "Conteggio richieste al minuto",
         "label_request_name": "Nome richiesta",
         "label_error_rate": "Frequenza errori",
-        "label_req_rate": "Numero richieste",
+        "label_req_rate": "Frequenza richieste",
         "label_slowest_resp_time": "Tempo di risposta più lento",
         "label_ms": "Millisecondo",
         "label_perminute": "Al minuto",
         "label_count": "Conteggio",
         "properties_title": "Proprietà",
-        "relations_title": "Risorse correlate"
+        "relations_title": "Risorse correlate",
+        "think_demo_title": "Segnali",
+        "label_latency": "Latenza",
+        "label_volume": "Volume richiesta",
+        "label_good_request_percentile": "Latenza -  transazioni corrette",
+        "label_bad_request_percentile": "Latenza -  transazioni non corrette",
+        "label_request_response_percentile": "Tempo di risposta",
+        "test": "Questa è un'etichetta di test"
+
     }
 }
 

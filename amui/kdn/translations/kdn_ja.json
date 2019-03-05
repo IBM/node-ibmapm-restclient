@@ -1,10 +1,8 @@
 {
-    
     "nlsBundleId": "ibm.kdn",
     "lang": "ja",
     "owner": "ibm.kdn",
     "description": "Translation bundle for LightWeightDataCollector for Node.js",
-    
     "translations": {
         "empty_title": "デフォルト・ページが見つかりません",
         "nodefault_name": "デフォルト・ページが見つかりません",
@@ -57,7 +55,15 @@
         "label_perminute": "1 分あたり",
         "label_count": "カウント",
         "properties_title": "プロパティー",
-        "relations_title": "関連リソース"
+        "relations_title": "関連リソース",
+        "think_demo_title": "シグナル",
+        "label_latency": "待ち時間",
+        "label_volume": "要求ボリューム",
+        "label_good_request_percentile": "待ち時間 - 良好トランザクション",
+        "label_bad_request_percentile": "待ち時間 - 不良トランザクション",
+        "label_request_response_percentile": "応答時間",
+        "test": "これはテスト・ラベルです"
+
     }
 }
 

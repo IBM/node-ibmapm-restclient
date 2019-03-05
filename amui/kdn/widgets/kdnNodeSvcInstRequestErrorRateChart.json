@@ -8,13 +8,14 @@
         "query": "metric",
         "uri": "/metric/0.9/values",
         "parameters": {
-            "metrics": ["requestErrorRate"]
+            "metrics": ["requestErrorRate"],
+            "unit":"percent"
         }
     },
     "expanded": true,
     "title": "label_error_rate",
     "labels": {
-        "yAxis": "label_perminute",
+        "yAxis": "label_percentage",
         "metricNames": ["label_error_rate"]
     }
 }

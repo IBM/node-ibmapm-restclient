@@ -54,6 +54,24 @@
                         "name": "Component Type",
                         "description": "The component type.",
                         "required": "y"
+                    },
+                    "podName":{
+                        "dataType": "string",
+                        "displaylabel": "Pod Name",
+                        "name": "Pod Name",
+                        "description": "The pod name of the application."
+                    },
+                    "containerId":{
+                        "dataType": "string",
+                        "displaylabel": "Container ID",
+                        "name": "Container ID",
+                        "description": "The container id of the application."
+                    },
+                    "serviceName":{
+                        "dataType": "string",
+                        "displaylabel": "Service Name",
+                        "name": "Service Name",
+                        "description": "The service name the application expose."
                     }
                 }
             },
@@ -140,6 +158,24 @@
                         "name": "Component Type",
                         "description": "The component type.",
                         "required": "y"
+                    },
+                    "podName":{
+                        "dataType": "string",
+                        "displaylabel": "Pod Name",
+                        "name": "Pod Name",
+                        "description": "The pod name of the application."
+                    },
+                    "containerId":{
+                        "dataType": "string",
+                        "displaylabel": "Container ID",
+                        "name": "Container ID",
+                        "description": "The container id of the application."
+                    },
+                    "serviceName":{
+                        "dataType": "string",
+                        "displaylabel": "Service Name",
+                        "name": "Service Name",
+                        "description": "The service name the application expose."
                     }
                 }
             },
@@ -173,7 +209,7 @@
                         "displaylabel": "Error Rate",
                         "name": "Error Rate",
                         "description": "The error rate of requests during the interval.",
-                        "units": "percentage",
+                        "units": "percent",
                         "tags": {
                             "groupName": "requestsSummary"
                         }
@@ -203,6 +239,183 @@
                         "displaylabel": "Application Name",
                         "name": "Application Name",
                         "description": "The name of the application."
+                    },
+                    "podName":{
+                        "dataType": "string",
+                        "displaylabel": "Pod Name",
+                        "name": "Pod Name",
+                        "description": "The pod name of the application."
+                    },
+                    "containerId":{
+                        "dataType": "string",
+                        "displaylabel": "Container ID",
+                        "name": "Container ID",
+                        "description": "The container id of the application."
+                    },
+                    "serviceName":{
+                        "dataType": "string",
+                        "displaylabel": "Service Name",
+                        "name": "Service Name",
+                        "description": "The service name the application expose."
+                    }
+                }
+            },
+            "requestMetrics": {
+                "displaylabel": "requestMetrics",
+                "name": "requestMetrics",
+                "description": "Request Metrics",
+                "metrics": {
+                    "requestResponseTime": {
+                        "dataType": "float",
+                        "displaylabel": "Request Response Time",
+                        "name": "Request Response Time",
+                        "description": "The response time of the certain request",
+                        "units": "milliseconds",
+                        "tags": {
+                            "groupName": "requestMetrics",
+                            "latency": "true"
+                        }
+                    }
+                },
+                "dimensions": {
+                    "requestName": {
+                        "dataType": "string",
+                        "displaylabel": "Request Name",
+                        "name": "Request Name",
+                        "description": "Request Name"
+                    },
+                    "nameSpace": {
+                        "dataType": "string",
+                        "displaylabel": "Name Space",
+                        "name": "Name Space",
+                        "description": "Name Space"
+                    },
+                    "_componentType": {
+                        "dataType": "string",
+                        "displaylabel": "Component Type",
+                        "name": "Component Type",
+                        "description": "Component Type"
+                    },
+                    "applicationName": {
+                        "dataType": "string",
+                        "displaylabel": "Application Name",
+                        "name": "Application Name",
+                        "description": "The name of the application."
+                    },
+                    "status": {
+                        "dataType": "string",
+                        "displaylabel": "Status",
+                        "name": "Status",
+                        "description": "The response status of the request."
+                    },
+                    "statusCode": {
+                        "dataType": "string",
+                        "displaylabel": "Status Code",
+                        "name": "Status Code",
+                        "description": "The response status code of the request."
+                    },
+                    "requestType": {
+                        "dataType": "string",
+                        "displaylabel": "Request Method",
+                        "name": "Request Method",
+                        "description": "The method of the request (e.g. POST, GET, DELETE, ...)."
+                    },
+                    "requestDetail": {
+                        "dataType": "string",
+                        "displaylabel": "Request Detail",
+                        "name": "Request Detail",
+                        "description": "The full url of the request (e.g. http://x.x.x.x:xxxx/abc.)."
+                    },
+                    "podName":{
+                        "dataType": "string",
+                        "displaylabel": "Pod Name",
+                        "name": "Pod Name",
+                        "description": "The pod name of the application."
+                    },
+                    "containerId":{
+                        "dataType": "string",
+                        "displaylabel": "Container ID",
+                        "name": "Container ID",
+                        "description": "The container id of the application."
+                    },
+                    "serviceName":{
+                        "dataType": "string",
+                        "displaylabel": "Service Name",
+                        "name": "Service Name",
+                        "description": "The service name the application expose."
+                    }
+                }
+            },
+            "errorMetrics": {
+                "displaylabel": "errorMetrics",
+                "name": "errorMetrics",
+                "description": "Error Metrics",
+                "metrics": {
+                    "errorCount": {
+                        "dataType": "int",
+                        "displaylabel": "Error Count",
+                        "name": "Error Count",
+                        "description": "The error count of the certain request and certain error code type",
+                        "units": "requests/minute",
+                        "tags": {
+                            "groupName": "errorMetrics"
+                        }
+                    }
+                },
+                "dimensions": {
+                    "requestName": {
+                        "dataType": "string",
+                        "displaylabel": "Request Name",
+                        "name": "Request Name",
+                        "description": "Request Name"
+                    },
+                    "_componentType": {
+                        "dataType": "string",
+                        "displaylabel": "Component Type",
+                        "name": "Component Type",
+                        "description": "Component Type"
+                    },
+                    "applicationName": {
+                        "dataType": "string",
+                        "displaylabel": "Application Name",
+                        "name": "Application Name",
+                        "description": "The name of the application."
+                    },
+                    "errorCode": {
+                        "dataType": "string",
+                        "displaylabel": "Error Code",
+                        "name": "Error Code",
+                        "description": "The response error code of the request."
+                    },
+                    "requestType": {
+                        "dataType": "string",
+                        "displaylabel": "Request Method",
+                        "name": "Request Method",
+                        "description": "The method of the request (e.g. POST, GET, DELETE, ...)."
+                    },
+                    "requestDetail": {
+                        "dataType": "string",
+                        "displaylabel": "Request Detail",
+                        "name": "Request Detail",
+                        "description": "The full url of the request (e.g. http://x.x.x.x:xxxx/abc.)."
+                    },
+                    "podName":{
+                        "dataType": "string",
+                        "displaylabel": "Pod Name",
+                        "name": "Pod Name",
+                        "description": "The pod name of the application."
+                    },
+                    "containerId":{
+                        "dataType": "string",
+                        "displaylabel": "Container ID",
+                        "name": "Container ID",
+                        "description": "The container id of the application."
+                    },
+                    "serviceName":{
+                        "dataType": "string",
+                        "displaylabel": "Service Name",
+                        "name": "Service Name",
+                        "description": "The service name the application expose."
                     }
                 }
             }
@@ -396,6 +609,17 @@
                 "units": "megabytes",
                 "tags": {
                     "groupName": "nodeApplicationRuntime"
+                }
+            },
+            "heapUtilization": {
+                "displaylabel": "Heap Utilization",
+                "dataType": "float",
+                "name": "Heap Utilization",
+                "description": "The heap utilization of the Node application in the last interval, in percentage",
+                "units": "percentage",
+                "tags": {
+                    "groupName": "nodeApplicationRuntime",
+                    "saturation": "true"
                 }
             },
             "reqSummary_socketioRequestRate": {
@@ -822,6 +1046,24 @@
                 "dataType": "string",
                 "name": "Service Resource ID",
                 "description": "The service resource ID."
+            },
+            "podName":{
+                "dataType": "string",
+                "displaylabel": "Pod Name",
+                "name": "Pod Name",
+                "description": "The pod name of the application."
+            },
+            "containerId":{
+                "dataType": "string",
+                "displaylabel": "Container ID",
+                "name": "Container ID",
+                "description": "The container id of the application."
+            },
+            "serviceName":{
+                "dataType": "string",
+                "displaylabel": "Service Name",
+                "name": "Service Name",
+                "description": "The service name the application expose."
             }
         }
     },

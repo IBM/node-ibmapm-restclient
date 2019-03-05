@@ -55,8 +55,17 @@
         "label_slowest_resp_time": "Slowest Response Time",
         "label_ms": "Millisecond",
         "label_perminute": "Per minute",
+        "label_persecond": "Per second",
         "label_count": "Count",
         "properties_title": "Properties",
-        "relations_title": "Related Resources"
+        "relations_title": "Related Resources",
+        "think_demo_title": "Signals",
+        "label_latency": "Latency",
+        "label_volume": "Request Volume",
+        "label_good_request_percentile": "Latency - good transactions",
+        "label_bad_request_percentile": "Latency - bad transactions",
+        "label_request_response_percentile": "Response Time",
+        "test": "This is a test label"
+
     }
 }

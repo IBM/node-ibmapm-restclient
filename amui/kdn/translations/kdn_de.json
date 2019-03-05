@@ -1,10 +1,8 @@
 {
-    
     "nlsBundleId": "ibm.kdn",
     "lang": "de",
     "owner": "ibm.kdn",
     "description": "Translation bundle for LightWeightDataCollector for Node.js",
-    
     "translations": {
         "empty_title": "Keine Standardseite gefunden",
         "nodefault_name": "Keine Standardseite gefunden",
@@ -57,7 +55,15 @@
         "label_perminute": "Pro Minute",
         "label_count": "Anzahl",
         "properties_title": "Eigenschaften",
-        "relations_title": "Zugehörige Ressourcen"
+        "relations_title": "Zugehörige Ressourcen",
+        "think_demo_title": "Signale",
+        "label_latency": "Latenz",
+        "label_volume": "Anforderungsvolumen",
+        "label_good_request_percentile": "Latenz - Fehlerfreie Transaktionen",
+        "label_bad_request_percentile": "Latenz - Fehlerhafte Transaktionen",
+        "label_request_response_percentile": "Antwortzeit",
+        "test": "Dies ist eine Testbezeichnung"
+
     }
 }
 
