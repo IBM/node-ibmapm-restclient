@@ -1,0 +1,22 @@
+{
+    "widgetid": "kdnNodeThinkDemoGoodPercentileChart",
+    "type": "chart",
+    "tags": [{ "entityType": "nodeApplicationRuntime" }],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "datadef": {
+        "query": "metric",
+        "uri": "/metric/0.9/values",
+        "parameters": {
+            "metrics": ["latency"],
+            "dimensions": [{"latency":"status=success"}],
+            "aggregations": "function_names=percentile-50|percentile-90|percentile-95,interval=1m"
+        }
+    },
+    "expanded": true,
+    "title": "label_good_request_percentile",
+    "labels": {
+        "yAxis": "label_ms",
+        "metricNames": ["label_request_response_percentile","test"]
+    }
+}

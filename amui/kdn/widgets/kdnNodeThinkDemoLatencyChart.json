@@ -1,0 +1,21 @@
+{
+    "widgetid": "kdnNodeThinkDemoLatencyChart",
+    "type": "chart",
+    "tags": [{ "entityType": "nodeApplicationRuntime" }],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "datadef": {
+        "query": "metric",
+        "uri": "/metric/0.9/values",
+        "parameters": {
+            "metrics": ["averageResponseTime"],
+            "aggregations": "function_names=avg,interval=1m"
+        }
+    },
+    "expanded": true,
+    "title": "label_latency",
+    "labels": {
+        "yAxis": "label_ms",
+        "metricNames": ["label_avg_resp_time"]
+    }
+}

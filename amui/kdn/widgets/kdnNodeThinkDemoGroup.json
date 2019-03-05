@@ -1,0 +1,22 @@
+{
+
+    "widgetid": "kdnNodeThinkDemoGroup",
+    "type": "group",
+    "tags": [{ "entityType": "nodeApplicationRuntime" }],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "expanded": true,
+    "gridParams": {
+        "cols": 18,
+        "rowHeight": 20,
+        "margin": [3, 0]
+    },
+    "title": "think_demo_title",
+    "layout": [
+        { "w": 6, "h": 10, "x": 0, "y": 10, "i": "kdnNodeThinkDemoLatencyChart", "minW": 3, "minH": 2 },
+        { "w": 6, "h": 10, "x": 6, "y": 10, "i": "kdnNodeThinkDemoVolumeChart", "minW": 3, "minH": 2 },
+        { "w": 6, "h": 10, "x": 12, "y": 10, "i": "kdnNodeThinkDemoErrorRateChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 10, "x": 0, "y": 20, "i": "kdnNodeThinkDemoGoodPercentileChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 10, "x": 9, "y": 20, "i": "kdnNodeThinkDemoBadPercentileChart", "minW": 3, "minH": 2 }
+    ]
+}

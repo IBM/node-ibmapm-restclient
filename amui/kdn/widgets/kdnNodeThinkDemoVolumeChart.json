@@ -1,0 +1,21 @@
+{
+    "widgetid": "kdnNodeThinkDemoVolumeChart",
+    "type": "chart",
+    "tags": [{ "entityType": "nodeApplicationRuntime" }],
+    "nlsBundleId": "ibm.kdn",
+    "owner": "ibm.kdn",
+    "datadef": {
+        "query": "metric",
+        "uri": "/metric/0.9/values",
+        "parameters": {
+            "metrics": ["traffic"],
+            "aggregations": "function_names=sum,interval=1m"
+        }
+    },
+    "expanded": true,
+    "title": "label_volume",
+    "labels": {
+        "yAxis": "label_perminute",
+        "metricNames": ["label_req_rate"]
+    }
+}
