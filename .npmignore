@@ -4,6 +4,6 @@
 .eslintrc
 .gitignore
 .project
-amui
+amuiSource
 buid_id.py
 tests
