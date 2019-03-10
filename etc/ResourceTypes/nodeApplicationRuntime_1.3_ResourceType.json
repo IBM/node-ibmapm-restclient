@@ -1172,6 +1172,7 @@
     "evaluationPoint": "rte",
     "name": "Node Application Runtime",
     "description": "Node Application Runtime",
+    "displayColumns":["clusterName"],
     "entityTypes": ["nodeApplicationRuntime"],
     "metadataVersion": "1.3",
     "keyIndexName": "metadata//1.3/resourcetypes/resourcetype/nodeApplicationRuntime",
