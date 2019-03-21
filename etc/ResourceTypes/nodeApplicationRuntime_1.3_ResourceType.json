@@ -871,9 +871,9 @@
                 }
             },
             "requestErrorRate": {
-                "displaylabel": "Error Rate",
+                "displaylabel": "Application Error Rate",
                 "dataType": "double",
-                "name": "Error Rate",
+                "name": "Application Error Rate",
                 "description": "The error rate of application requests at the latest sampling interval",
                 "units": "percent",
                 "tags": {
