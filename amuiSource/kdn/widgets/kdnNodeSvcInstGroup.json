@@ -13,9 +13,9 @@
     },
     "title": "performance_overview_title",
     "layout": [
-        { "w": 9, "h": 10, "x": 0, "y": 10, "i": "kdnNodeSvcInstAvgReqRespTimeChart", "minW": 3, "minH": 2 },
-        { "w": 9, "h": 10, "x": 9, "y": 10, "i": "kdnNodeSvcInstRequestRateChart", "minW": 3, "minH": 2 },
-        { "w": 9, "h": 10, "x": 0, "y": 20, "i": "kdnNodeSvcInstRequestErrorRateChart", "minW": 3, "minH": 2 },
-        { "w": 9, "h": 10, "x": 9, "y": 20, "i": "kdnNodeSvcInstSlowestResponseTimeChart", "minW": 3, "minH": 2 }
+        
+        { "w": 9, "h": 10, "x": 0, "y": 10, "i": "kdnNodeAppRTCPUChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 10, "x": 9, "y": 10, "i": "kdnNodeAppRTVirtualMemoryChart", "minW": 3, "minH": 2 },
+        { "w": 18, "h": 10, "x": 0, "y": 20, "i": "kdnNodeSvcInstSlowestResponseTimeChart", "minW": 6, "minH": 2 }
     ]
 }
