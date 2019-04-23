@@ -2,7 +2,7 @@
     <property name="zip.name" value="AMUI_kdn.zip"/>
     <property name="build.dir" value="./build"/>    
     <property name="tran.dir" value="${build.dir}/translations"/>
-    <property name="target.dir" value="../etc/AMUI/${zip.name}"/> 
+    <property name="target.dir" value="../ibmapm-restclient/etc/AMUI/${zip.name}"/> 
     <target name="clean">
         <delete file="./${zip.name}"/>
         <delete dir="${build.dir}"/>

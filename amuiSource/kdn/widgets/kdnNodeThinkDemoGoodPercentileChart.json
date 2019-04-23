@@ -10,7 +10,8 @@
         "parameters": {
             "metrics": ["latency"],
             "dimensions": [{"latency":"status=success"}],
-            "aggregations": "function_names=percentile-50|percentile-90|percentile-95,interval=1m"
+            "aggregations": "function_names=percentile-50|percentile-90|percentile-95,interval=1m",
+            "overrideAggr": true
         }
     },
     "expanded": true,

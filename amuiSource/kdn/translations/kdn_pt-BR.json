@@ -53,6 +53,7 @@
         "label_slowest_resp_time": "Tempo de Resposta mais Lento",
         "label_ms": "Milissegundo",
         "label_perminute": "Por minuto",
+        "label_persecond": "Por segundo",
         "label_count": "Contagem",
         "properties_title": "Propriedades",
         "relations_title": "Recursos relacionados",

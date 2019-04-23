@@ -9,7 +9,8 @@
         "uri": "/metric/0.9/values",
         "parameters": {
             "metrics": ["traffic"],
-            "aggregations": "function_names=sum,interval=1m"
+            "aggregations": "function_names=sum,interval=1m",
+            "overrideAggr": true
         }
     },
     "expanded": true,

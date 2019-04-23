@@ -53,14 +53,15 @@
         "label_slowest_resp_time": "Tiempo de respuesta más lento",
         "label_ms": "Milisegundo",
         "label_perminute": "Por minuto",
+        "label_persecond": "Por segundo",
         "label_count": "Recuento",
         "properties_title": "Propiedades",
         "relations_title": "Recursos relacionados",
         "think_demo_title": "Señales",
         "label_latency": "Latencia",
         "label_volume": "Volumen de solicitud",
-        "label_good_request_percentile": "Latencia - transacciones buenas ",
-        "label_bad_request_percentile": "Latencia - transacciones malas ",
+        "label_good_request_percentile": "Latencia - transacciones buenas",
+        "label_bad_request_percentile": "Latencia - transacciones malas",
         "label_request_response_percentile": "Tiempo de respuesta",
         "test": "Esto es una etiqueta de prueba."
 
