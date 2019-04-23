@@ -8,9 +8,9 @@
                 "metrics": {
                     "averageEventLoopLatency": {
                         "dataType": "double",
-                        "displaylabel": "Average Latency",
-                        "name": "Average Latency",
-                        "description": "The average sampled latency, in milliseconds. The latency samples are taken in the last five seconds in one minute.",
+                        "displaylabel": "Event Loop Average Latency",
+                        "name": "Event Loop Average Latency",
+                        "description": "The average sampled latency, in milliseconds. The latency samples are taken in the last five seconds in last interval.",
                         "units": "milliseconds",
                         "tags": {
                             "groupName": "eventLoop"
@@ -18,9 +18,9 @@
                     },
                     "minimumEventLoopLatency": {
                         "dataType": "double",
-                        "displaylabel": "Shortest Latency",
-                        "name": "Shortest Latency",
-                        "description": "The shortest sampled latency, in milliseconds. The latency samples are taken in the last five seconds in one minute.",
+                        "displaylabel": "Event Loop Shortest Latency",
+                        "name": "Event Loop Shortest Latency",
+                        "description": "The shortest sampled latency, in milliseconds. The latency samples are taken in the last five seconds in last interval.",
                         "units": "milliseconds",
                         "tags": {
                             "groupName": "eventLoop"
@@ -28,9 +28,9 @@
                     },
                     "maximumEventLoopLatency": {
                         "dataType": "double",
-                        "displaylabel": "Longest Latency",
-                        "name": "Longest Latency",
-                        "description": "The longest sampled latency, in milliseconds. The latency samples are taken in the last five seconds in one minute",
+                        "displaylabel": "Event Loop Longest Latency",
+                        "name": "Event Loop Longest Latency",
+                        "description": "The longest sampled latency, in milliseconds. The latency samples are taken in the last five seconds in last interval",
                         "units": "milliseconds",
                         "tags": {
                             "groupName": "eventLoop"
@@ -106,7 +106,7 @@
                         "dataType": "double",
                         "displaylabel": "Average Event Loop Tick Time",
                         "name": "Average Event Loop Tick Time",
-                        "description": "The average tick time of the event loop in milliseconds over the last one minute",
+                        "description": "The average tick time of the event loop in milliseconds over the last interval",
                         "units": "milliseconds",
                         "tags": {
                             "groupName": "loop"
@@ -116,7 +116,7 @@
                         "dataType": "double",
                         "displaylabel": "Event Loop slowest Tick Time",
                         "name": "Event Loop slowest Tick Time",
-                        "description": "The longest or slowest tick time (milliseconds) of the event loop in last one minute",
+                        "description": "The longest or slowest tick time (milliseconds) of the event loop in last interval",
                         "units": "milliseconds",
                         "tags": {
                             "groupName": "loop"
@@ -146,7 +146,7 @@
                         "dataType": "int",
                         "displaylabel": "Event Loop Tick Count",
                         "name": "Event Loop Tick Count",
-                        "description": "The total number of event loop ticks in last minute",
+                        "description": "The total number of event loop ticks in last interval",
                         "units": "ticks",
                         "tags": {
                             "groupName": "loop"
@@ -212,7 +212,7 @@
                         "dataType": "float",
                         "displaylabel": "Average Service Response Time",
                         "name": "Average Service Response Time",
-                        "description": "The average service response time of requests belonging to service in the last minute",
+                        "description": "The average service response time of requests belonging to service in the last interval",
                         "units": "milliseconds",
                         "tags": {
                             "groupName": "requestsSummary"
@@ -222,7 +222,7 @@
                         "dataType": "int",
                         "displaylabel": "Throughput",
                         "name": "Throughput",
-                        "description": "The request throughput in the last minute",
+                        "description": "The request throughput in the last interval",
                         "units": "requests",
                         "tags": {
                             "groupName": "requestsSummary"
@@ -521,9 +521,9 @@
         },
         "metrics": {
             "averageResponseTime": {
-                "displaylabel": "Average Response Time",
+                "displaylabel": "Application Average Response Time",
                 "dataType": "float",
-                "name": "Average Response Time",
+                "name": "Application Average Response Time",
                 "description": "The average response time of the application at the latest interval",
                 "units": "milliseconds",
                 "tags": {
@@ -614,7 +614,7 @@
                 "displaylabel": "Scavenge GC Count",
                 "dataType": "int",
                 "name": "Scavenge GC Count",
-                "description": "The count of Scavenge GC in one minute",
+                "description": "The count of Scavenge GC in last interval",
                 "units": "count",
                 "tags": {
                     "groupName": "nodeApplicationRuntime"
@@ -734,7 +734,7 @@
                 "displaylabel": "Mark Sweep Count",
                 "dataType": "int",
                 "name": "Mark Sweep Count",
-                "description": "The count of Mark Sweep Compact GC, in one minute",
+                "description": "The count of Mark Sweep Compact GC, in last interval",
                 "units": "count",
                 "tags": {
                     "groupName": "nodeApplicationRuntime"
@@ -884,7 +884,7 @@
                 "displaylabel": "Process Weak Callbacks Count",
                 "dataType": "int",
                 "name": "Process Weak Callbacks Count",
-                "description": "The count of process weak callbacks GC, in one minute",
+                "description": "The count of process weak callbacks GC, in last interval",
                 "units": "count",
                 "tags": {
                     "groupName": "nodeApplicationRuntime"
@@ -904,7 +904,7 @@
                 "displaylabel": "Incremental Marking Count",
                 "dataType": "int",
                 "name": "Incremental Marking Count",
-                "description": "The count of incremental marking GC, in one minute",
+                "description": "The count of incremental marking GC, in last interval",
                 "units": "count",
                 "tags": {
                     "groupName": "nodeApplicationRuntime"
