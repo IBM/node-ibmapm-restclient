@@ -7,8 +7,11 @@
     "datadef": {
         "query": "resource",
         "uri": "/resource/uid",
-        "parameters": {}
+        "parameters": {
+            "excludedProperties" : ["uid", "mergeTokens","description","clusterUid","status","node_role","tags"]
+        }
     },
     "expanded": true,
+    "preventCollapse": true,
     "title": "properties_title"
 }

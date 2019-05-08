@@ -10,5 +10,6 @@
         "parameters": {}
     },
     "expanded": true,
+    "preventCollapse": true,
     "title": "relations_title"
 }

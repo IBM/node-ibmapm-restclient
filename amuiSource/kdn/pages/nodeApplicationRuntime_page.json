@@ -41,7 +41,7 @@
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTEventLoopTickChart", "member": "Y" },
 
 
-        { "w": 12, "h": 8, "x": 0, "y": 90, "i": "kdnNodeProperties", "minW": 3, "minH": 1 },
-        { "w": 12, "h": 8, "x": 12, "y": 90, "i": "kdnNodeRelationships", "minW": 3, "minH": 1 }
+        { "w": 12, "h": 8, "x": 0, "y": 90, "i": "kdnNodeRelationships", "minW": 3, "minH": 1 },
+        { "w": 12, "h": 8, "x": 12, "y": 90, "i": "kdnNodeProperties", "minW": 3, "minH": 1 }
     ]
 }

@@ -1,7 +1,7 @@
 {
     "name": "ibmapm-restclient",
     "main": "./lib/restclient/httpsender.js",
-    "version": "1.1.10",
+    "version": "1.1.11",
     "readme": "Node.js Rest Client",
     "description": "Node.js rest client for ICAM.",
     "dependencies": {
@@ -45,7 +45,8 @@
         "type": "git",
         "url": "git@github.com:IBM/node-ibmapm-restclient.git"
     },
-    "contributors": [{
+    "contributors": [
+        {
             "name": "Hui Jun Song",
             "email": "songhj@cn.ibm.com"
         },
