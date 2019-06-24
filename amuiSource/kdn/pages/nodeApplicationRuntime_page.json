@@ -7,41 +7,29 @@
     "description": "nodeapplicationruntime_page_desc",
     "owner": "ibm.kdn",
     "gridParams": {
-        "cols": 24,
-        "rowHeight": 16,
-        "margin": [3, 3],
+        "cols": 18,
+        "rowHeight": 50,
         "compactType": "vertical",
         "isDraggable": true,
         "isResizeable": true
     },
     "layout": [
-        
-        { "w": 24, "h": 20, "x": 0, "y": 0, "i": "kdnNodeThinkDemoGroup", "minW": 3, "minH": 1 },
-        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeThinkDemoLatencyChart", "member": "Y" },
-        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeThinkDemoVolumeChart", "member": "Y" },
-        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeThinkDemoErrorRateChart", "member": "Y" },
-        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeThinkDemoGoodPercentileChart", "member": "Y" },
-        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeThinkDemoBadPercentileChart", "member": "Y" },
 
-        { "w": 24, "h": 20, "x": 0, "y": 20, "i": "kdnNodeSvcInstGroup", "minW": 3, "minH": 1 },
+        { "w": 18, "h": 12, "x": 0, "y": 0, "i": "kdnNodeGoldenSignals", "minW": 3, "minH": 1 },
+
+        { "w": 18, "h": 12, "x": 0, "y": 12, "i": "kdnNodeSvcInstGroup", "minW": 3, "minH": 1 },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTCPUChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTVirtualMemoryChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeSvcInstSlowestResponseTimeChart", "member": "Y" },
 
-        { "w": 24, "h": 25, "x": 0, "y": 40, "i": "kdnNodeAppGroup", "minW": 3, "minH": 1 },
-        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppReqTable", "member": "Y" },
-        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppReqRespTimeChart", "member": "Y" },
-        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppHitCountChart", "member": "Y" },
-        { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppErrRateChart", "member": "Y" },
-
-        { "w": 24, "h": 20, "x": 0, "y": 70, "i": "kdnNodeAppRTGroup", "minW": 3, "minH": 1 },
+        { "w": 18, "h": 12, "x": 0, "y": 24, "i": "kdnNodeAppRTGroup", "minW": 3, "minH": 1 },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTHeapSizeChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTGCDurationChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTAvgEventLoopLatencyChart", "member": "Y" },
         { "w": 0, "h": 0, "x": 0, "y": 0, "i": "kdnNodeAppRTEventLoopTickChart", "member": "Y" },
 
 
-        { "w": 12, "h": 8, "x": 0, "y": 90, "i": "kdnNodeRelationships", "minW": 3, "minH": 1 },
-        { "w": 12, "h": 8, "x": 12, "y": 90, "i": "kdnNodeProperties", "minW": 3, "minH": 1 }
+        { "w": 9, "h": 9, "x": 0, "y": 36, "i": "kdnNodeRelationships", "minW": 3, "minH": 1 },
+        { "w": 9, "h": 9, "x": 9, "y": 36, "i": "kdnNodeProperties", "minW": 3, "minH": 1 }
     ]
 }

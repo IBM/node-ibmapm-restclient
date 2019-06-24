@@ -8,13 +8,13 @@
     "expanded": true,
     "gridParams": {
         "cols": 18,
-        "rowHeight": 20,
-        "margin": [3, 0]
+        "rowHeight": 16,
+        "margin": [3, 3]
     },
     "title": "performance_overview_title",
     "layout": [
 
-        { "w": 9, "h": 10, "x": 0, "y": 10, "i": "kdnNodeAppHitCountSumChart", "minW": 3, "minH": 2 },
-        { "w": 9, "h": 10, "x": 9, "y": 10, "i": "kdnNodeAppReqRespTimeSumChart", "minW": 3, "minH": 2 }
+        { "w": 9, "h": 20, "x": 0, "y": 0, "i": "kdnNodeAppHitCountSumChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 20, "x": 9, "y": 0, "i": "kdnNodeAppReqRespTimeSumChart", "minW": 3, "minH": 2 }
     ]
 }

@@ -8,15 +8,14 @@
     "expanded": true,
     "gridParams": {
         "cols": 18,
-        "rowHeight": 30,
-        "margin": [3, 0]
+        "rowHeight": 25
     },
     "title": "request_analysis_per_request_title",
     "layout": [
 
-        { "w": 9, "h": 21, "x": 0, "y": 0, "i": "kdnNodeAppReqTable", "minW": 3, "minH": 2 },
-        { "w": 9, "h": 7, "x": 9, "y": 1, "i": "kdnNodeAppReqRespTimeChart", "minW": 3, "minH": 2 },
-        { "w": 9, "h": 7, "x": 9, "y": 11, "i": "kdnNodeAppHitCountChart", "minW": 3, "minH": 2 },
-        { "w": 9, "h": 7, "x": 9, "y": 21, "i": "kdnNodeAppErrRateChart", "minW": 3, "minH": 2 }
+        { "w": 9, "h": 24, "x": 0, "y": 0, "i": "kdnNodeAppReqTable", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 8, "x": 9, "y": 0, "i": "kdnNodeAppReqRespTimeChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 8, "x": 9, "y": 8, "i": "kdnNodeAppHitCountChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 8, "x": 9, "y": 16, "i": "kdnNodeAppErrRateChart", "minW": 3, "minH": 2 }
     ]
 }

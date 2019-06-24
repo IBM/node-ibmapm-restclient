@@ -22,6 +22,6 @@
         "headers_width": [40, 30, 30]
     },
     "navigation": [
-        { "pageid": "#", "context": "row" }
+        { "pageid": "#", "context": "rows", "checkAll": true }
     ]
 }

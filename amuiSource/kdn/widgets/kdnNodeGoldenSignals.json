@@ -1,0 +1,9 @@
+{
+  "widgetid": "kdnNodeGoldenSignals",
+  "type": "goldenSignals",
+  "tags": [{"entityType":"nodeApplicationRuntime"}],
+  "nlsBundleId": "ibm.kdn",
+  "owner": "ibm.kdn",
+  "title": "think_demo_title",
+  "expanded": true
+}

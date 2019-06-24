@@ -8,14 +8,14 @@
     "expanded": true,
     "gridParams": {
         "cols": 18,
-        "rowHeight": 20,
-        "margin": [3, 0]
+        "rowHeight": 25,
+        "margin": [3, 3]
     },
     "title": "nodejs_analysis_title",
     "layout": [
-        { "w": 9, "h": 10, "x": 0, "y": 10, "i": "kdnNodeAppRTHeapSizeChart", "minW": 3, "minH": 2 },
-        { "w": 9, "h": 10, "x": 9, "y": 10, "i": "kdnNodeAppRTGCDurationChart", "minW": 3, "minH": 2 },
-        { "w": 9, "h": 10, "x": 0, "y": 20, "i": "kdnNodeAppRTAvgEventLoopLatencyChart", "minW": 3, "minH": 2 },
-        { "w": 9, "h": 10, "x": 9, "y": 20, "i": "kdnNodeAppRTEventLoopTickChart", "minW": 3, "minH": 2 }
+        { "w": 9, "h": 12, "x": 0, "y": 0, "i": "kdnNodeAppRTHeapSizeChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 12, "x": 9, "y": 0, "i": "kdnNodeAppRTGCDurationChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 12, "x": 0, "y": 12, "i": "kdnNodeAppRTAvgEventLoopLatencyChart", "minW": 3, "minH": 2 },
+        { "w": 9, "h": 12, "x": 9, "y": 12, "i": "kdnNodeAppRTEventLoopTickChart", "minW": 3, "minH": 2 }
     ]
 }
