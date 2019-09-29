@@ -5,5 +5,20 @@
   "nlsBundleId": "ibm.kdn",
   "owner": "ibm.kdn",
   "title": "think_demo_title",
-  "expanded": true
+  "expanded": true,
+  "mapping" : {
+    "metrics":[
+               {"requestType": ["traffic"]}
+               ],
+    "group_by_dimension": { 
+                             "requestType" : { "traffic" : "requestName" } 
+                          } ,
+    "aggregations":[{
+      "traffic": "sum"
+    }],
+    "dimensions": {"requestType" : [{ "traffic": "<%entityName%>" }] ,
+                    "traffic": [{ "traffic": "<%entityName%>,requestName=<%DIM%>" }]
+                  }
+  }
 }
+
