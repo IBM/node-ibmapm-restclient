@@ -1,7 +1,7 @@
 {
     "name": "ibmapm-restclient",
     "main": "./lib/restclient/httpsender.js",
-    "version": "19.9.0",
+    "version": "19.9.1",
     "readme": "Node.js Rest Client",
     "description": "Node.js rest client for ICAM.",
     "dependencies": {
