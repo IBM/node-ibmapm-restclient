@@ -32,7 +32,7 @@ tap.test('k8sutil.', function(t) {
     k8sutil.getServicesConn();
 
     var podname = k8sutil.getPodName();
-    t.ok(podname, 'podname is OK.');
+    t.ok(!podname, 'podname is not hostname anymore.');
 
     t.end();
 });
