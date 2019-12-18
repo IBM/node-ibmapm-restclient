@@ -1,11 +1,11 @@
 {
     "name": "ibmapm-restclient",
     "main": "./lib/restclient/httpsender.js",
-    "version": "19.12.0",
+    "version": "19.12.1",
     "readme": "Node.js Rest Client",
     "description": "Node.js rest client for ICAM.",
     "dependencies": {
-        "https-proxy-agent": "^2.2.1",
+        "https-proxy-agent": "^4.0.0",
         "kubernetes-client": "^3.16.0",
         "log4js": "^4.5.1",
         "properties": "^1.2.1",
